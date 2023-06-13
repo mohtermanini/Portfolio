@@ -65,9 +65,20 @@ Error generating stack: `+a.message+`
 `;function wo({children:e,backgroundColor:t}){return f.jsxs(N0,{backgroundColor:t,children:[f.jsx("hr",{}),f.jsx("h2",{className:"c-text--display-sm",children:e})]})}const j0=we.section`
   a {
     display: inline-block;
-    background-color: rgba(5, 154, 83, 0.7);
+    background: linear-gradient(
+      180deg,
+      rgba(5, 154, 83, 0.7) 0%,
+      rgba(1, 60, 32, 0.7) 100%
+    );
+    &:hover {
+      background: linear-gradient(
+        180deg,
+        rgba(1, 60, 32, 0.7) 0%,
+        rgba(5, 154, 83, 0.7) 100%
+      );
+    }
     @media (max-width: ${Pt.sm}) {
-        align-self: center;
+      align-self: center;
     }
   }
   hr {
@@ -967,9 +978,12 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   display: flex;
   flex-direction: column;
 `,Dy=we.div`
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  .c-selected-project-description .btn:hover{
+    background-color: rgba(77, 77, 160, 1);
+  }
 `,_f="/Portfolio/assets/1-967b2f56.png",Af="/Portfolio/assets/1-4b9373af.png",If="/Portfolio/assets/1-a9569438.png",Of="/Portfolio/assets/1-9b1d6ace.png",Tf="/Portfolio/assets/1-94f9836f.png",Fy="/Portfolio/assets/2-a2719822.png",Uy="/Portfolio/assets/3-4c989025.png",By="/Portfolio/assets/4-553b4cba.png",Wy="/Portfolio/assets/2-7b378b14.png",Hy="/Portfolio/assets/3-21bda34f.png",Vy="/Portfolio/assets/4-cbea31fe.png",Yy="/Portfolio/assets/5-5621f08d.png",Qy="/Portfolio/assets/2-a6b3d9a6.png",Gy="/Portfolio/assets/3-6620cc25.png",Xy="/Portfolio/assets/4-941871ff.png",Ky="/Portfolio/assets/5-00672efa.png",Zy="/Portfolio/assets/6-81621a5b.png",Jy="/Portfolio/assets/7-b2258d16.png",qy="/Portfolio/assets/8-720a4cdf.png",ex="/Portfolio/assets/2-223a4642.png",tx="/Portfolio/assets/3-a4636c09.png",nx="/Portfolio/assets/4-7ca99fe9.png",rx="/Portfolio/assets/5-030d0eb8.png",ix="/Portfolio/assets/6-02cb69a4.png",zf="/Portfolio/assets/1-996d8e2a.png",ax="/Portfolio/assets/2-3af2d4bf.png",ox="/Portfolio/assets/3-0b0229e9.png",lx="/Portfolio/assets/4-48023b7c.png",sx="/Portfolio/assets/5-49d09510.png",ux="/Portfolio/assets/6-7cbfb4d1.png",cx="/Portfolio/assets/7-1318f028.png",fx="/Portfolio/assets/8-26b64281.png",dx=[{id:1,name:"Websites"},{id:2,name:"Games"},{id:3,name:"Web Designs"}],Pn=[{id:1,name:"Sihati",mainImage:_f,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"Medical Blog Website"})}),description:f.jsx(f.Fragment,{children:f.jsx("p",{children:"A medical blog which include articles in various fields, in addition to a doctors consultation section."})}),categoryId:1,skillsIds:[1,2,3,4,5,6,10],link:"https://sihatiteb.000webhostapp.com",images:[_f,Fy,Uy,By]},{id:2,name:"Namaa Library",mainImage:Tf,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"Control Panel for Library Management System"})}),description:f.jsxs(f.Fragment,{children:[f.jsx("p",{className:"mb-2",children:"Control Panel for Library Management System"}),f.jsx("p",{className:"mb-2",children:"Analyzed a library management system and built a user-friendly control panel for it."}),f.jsxs("ul",{className:"c-list--bullet c-list-style--inside",children:[f.jsx("li",{className:"mb-1",children:"Users management "}),f.jsx("li",{className:"mb-1",children:"Books management "}),f.jsx("li",{className:"mb-1",children:"Library subscription and borrow system"}),f.jsx("li",{children:"Special training sessions management"})]})]}),categoryId:1,skillsIds:[1,2,4,5,10],link:"https://namaalibrary.000webhostapp.com",images:[Tf,Wy,Hy,Vy,Yy]},{id:3,name:"Memory Card",mainImage:zf,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"A challenging and fun game that tests the memory."})}),description:f.jsxs(f.Fragment,{children:[f.jsx("p",{className:"mb-2",children:"A challenging and fun game that tests the memory."}),f.jsx("p",{className:"mb-2",children:"The game starts with a deck of cards with different pictures:"}),f.jsxs("ul",{className:"c-list--bullet c-list-style--inside",children:[f.jsx("li",{className:"mb-1",children:"You have to click on each card only once or you will lose."}),f.jsx("li",{className:"mb-1",children:"The cards are shuffled every time one of them is clicked."}),f.jsx("li",{children:"The main goal is to get the highest possible score."})]})]}),categoryId:2,skillsIds:[7],link:"https://mohtermanini.github.io/Memory-Card",images:[zf]},{id:4,name:"BattleShip",mainImage:If,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"A board game for two players where opponents try to locate their opponents' warships and sink them."})}),description:f.jsxs(f.Fragment,{children:[f.jsx("p",{className:"mb-2",children:"A board game for two players where opponents try to locate their opponents' warships and sink them."}),f.jsx("p",{className:"mb-2",children:"Play instructions: "}),f.jsxs("ul",{className:"c-list--bullet c-list-style--inside",children:[f.jsx("li",{className:"mb-2",children:"Each player hides their ships on a board of squares."}),f.jsx("li",{className:"mb-2",children:"When game starts players take turns calling out row and column coordinates on the other player's grid in an attempt to identify a square that contains a ship."}),f.jsx("li",{className:"mb-2",children:"If the attempt is successful the player calls out another coordinates until he finds out all the hidden ships or his call fails."}),f.jsx("li",{children:"The winner is the first to find out all the hidden ships."})]})]}),categoryId:2,skillsIds:[1,2,4],link:"https://mohtermanini.github.io/Battleship",images:[If,ex,tx,nx,rx,ix]},{id:5,name:"FlyFood",mainImage:Of,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"An application for ordering foods and following up the order until it arrives."})}),description:f.jsxs(f.Fragment,{children:[f.jsx("p",{className:"mb-2",children:"An application for ordering foods and following up the order until it arrives."}),f.jsx("p",{children:"I designed the application's user interfaces."})]}),categoryId:3,skillsIds:[12,13,18],link:"https://xd.adobe.com/view/5729fd02-839b-4b85-ab46-6b3e6a5b0a53-027a",images:[Of,ax,ox,lx,sx,ux,cx,fx]},{id:6,name:"EasyBook",mainImage:Af,mainDescription:f.jsx(f.Fragment,{children:f.jsx("p",{children:"Hotels and Real Estate Reservations Website"})}),description:f.jsxs(f.Fragment,{children:[f.jsx("p",{className:"mb-2",children:"Hotels and Real Estate Reservations Website"}),f.jsx("p",{className:"mb-2",children:"Designed user interfaces for a large hotels and properties booking website."}),f.jsx("p",{children:"Created over 50 unique user-friendly interfaces and more than 80 in total taking into account the best user experience possible."})]}),categoryId:3,skillsIds:[13],link:"https://xd.adobe.com/view/ed86e361-e04f-45de-9a67-0d89e483c2a4-b8d5",images:[Af,Qy,Gy,Xy,Ky,Zy,Jy,qy]}],Dm=le.createContext();function px({children:e}){const[t,n]=le.useState(1),[r,i]=le.useState(null),[a,o]=le.useState(!1);return le.useEffect(()=>{for(let l=0;l<Pn.length;l++)if(Pn[l].categoryId===t){i(Pn[l].id);break}},[t]),f.jsx(Dm.Provider,{value:{selectedCategoryId:t,setSelectedCategoryId:n,selectedProjectId:r,setSelectedProjectId:i,showProjectModal:a,setShowProjectModal:o},children:e})}function Ei(){return le.useContext(Dm)}const mx=we.section`
   .c-project-card__img-container {
     width: 150px;
@@ -1067,10 +1081,13 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   gap: 25px;
   .visit-site-container {
     display: flex;
-    align-self:flex-end;
+    align-self: flex-end;
+    a:hover {
+      background: linear-gradient(180deg, #191730 0%, #4240a0 100%);
+    }
   }
   .btn {
-    background: linear-gradient(180deg, #000000 0%, #8a8a8a 100%);
+    background: linear-gradient(180deg, #4240a0 0%, #191730 100%);
     display: flex;
     gap: 10px;
     align-items: center;
@@ -1248,7 +1265,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       gap: 10px;
     }
   }
-`;function Vx(){return f.jsxs(Hx,{children:[f.jsxs("div",{className:"c-other-experience",children:[f.jsx("h2",{className:"c-text--headline-sm c-text--bold",children:"Not Enough for You?"}),f.jsxs("ul",{className:"c-list--bullet",children:[f.jsx("li",{className:"c-text--body-md",children:"I have a bachelor’s degree in Informatics Engineering, a five years computer science programe."}),f.jsx("li",{className:"c-text--body-md",children:"I graduated at the top of my class with a GPA of 87%."}),f.jsxs("li",{className:"c-text--body-md",children:["I solved over 850 problems which involved different algorithms and data structures onwebsites like Codeforces, UVa Online Judge, Spoj.",f.jsx("span",{className:"c-text--body-sm",children:f.jsx("a",{href:"https://www.stopstalk.com/user/profile/Mohamad_Termanini",children:"My profile on Stopstalk"})})]}),f.jsx("li",{className:"c-text--body-md",children:"I participated in Aleppo Collegiate Programming Contest and got the third place."})]})]}),f.jsx("div",{className:"c-side-img-container",children:f.jsx("img",{src:Wx,className:"c-side-img-container__img"})})]})}const Yx=we.div`
+
+  .stoptalk-profile{
+    margin-top: 4px;
+    a {
+      text-decoration: underline;
+    }
+  }
+`;function Vx(){return f.jsxs(Hx,{children:[f.jsxs("div",{className:"c-other-experience",children:[f.jsx("h2",{className:"c-text--headline-sm c-text--bold",children:"Not Enough for You?"}),f.jsxs("ul",{className:"c-list--bullet",children:[f.jsx("li",{className:"c-text--body-md",children:"I have a bachelor’s degree in Informatics Engineering, a five years computer science programe."}),f.jsx("li",{className:"c-text--body-md",children:"I graduated at the top of my class with a GPA of 87%."}),f.jsxs("li",{className:"c-text--body-md",children:["I solved over 850 problems which involved different algorithms and data structures onwebsites like Codeforces, UVa Online Judge, Spoj.",f.jsxs("p",{className:"stoptalk-profile",children:["My profile on"," ",f.jsx("a",{href:"https://www.stopstalk.com/user/profile/Mohamad_Termanini",target:"_blank",rel:"noreferrer",children:"Stopstalk"})]})]}),f.jsx("li",{className:"c-text--body-md",children:"I participated in Aleppo Collegiate Programming Contest and got the third place."})]})]}),f.jsx("div",{className:"c-side-img-container",children:f.jsx("img",{src:Wx,className:"c-side-img-container__img"})})]})}const Yx=we.div`
   .c-side-img-container {
     width: 50%;
     position: relative;

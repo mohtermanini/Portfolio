@@ -51,7 +51,7 @@ Error generating stack: `+a.message+`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 30px 60px;
+  padding: 28px 60px;
   background-color: ${({backgroundColor:e})=>e};
   @media (max-width: ${et.md}) {
     align-items: center;
@@ -62,9 +62,10 @@ Error generating stack: `+a.message+`
       width: 75px;
     }
   }
-`;function wo({children:e,backgroundColor:t}){return c.jsxs(j0,{backgroundColor:t,children:[c.jsx("hr",{}),c.jsx("h2",{className:"c-text--display-sm",children:e})]})}const N0=we.section`
+`;function wo({children:e,backgroundColor:t}){return c.jsxs(j0,{backgroundColor:t,children:[c.jsx("hr",{}),c.jsx("h2",{className:"c-text--display-sm c-text--bold",children:e})]})}const N0=we.section`
   a {
     display: inline-block;
+    padding: 8px 20px;
     background: linear-gradient(
       180deg,
       rgba(5, 154, 83, 0.7) 0%,
@@ -95,7 +96,7 @@ Error generating stack: `+a.message+`
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      gap: 15px;
+      gap: 16px;
     }
     .brief {
       ul {
@@ -117,7 +118,7 @@ Error generating stack: `+a.message+`
     .languages-profeciency {
       ul {
         display: flex;
-        gap: 40px;
+        gap: 48px;
         margin-left: 20px;
         li {
           padding: 0 20px 0 0;
@@ -135,7 +136,7 @@ Error generating stack: `+a.message+`
       }
     }
   }
-`,_0="/Portfolio/assets/arabic-flag-ba125a22.svg",A0="/Portfolio/assets/english-flag-8f453a18.svg";function I0(){return c.jsxs(N0,{children:[c.jsx(wo,{backgroundColor:"rgba(91, 91, 165, 0.7)",children:"About me"}),c.jsxs("div",{className:"body",children:[c.jsxs("div",{className:"brief",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Brief"}),c.jsxs("ul",{children:[c.jsx("li",{className:"c-text--body-md",children:"I am a Full-stack web developer with 2+ years of experience in web development."}),c.jsx("li",{className:"c-text--body-md",children:"I have a strong background in designing and developing web applications using Figma, React and Laravel."})]}),c.jsx("a",{href:"https://drive.google.com/file/d/1gTxXiLMJh-FKnex2cH16WqQeUxV3vpay/view?usp=sharing",target:"_blank",rel:"noreferrer",className:"btn ",children:"Download CV"})]}),c.jsx("hr",{className:"c-horizontal-separator--color-white c-horizontal-separator--height-1"}),c.jsxs("div",{className:"education",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Education"}),c.jsx("ul",{children:c.jsxs("li",{children:[c.jsx("p",{className:"c-text--body-md",children:"10/2015 - 11/2020"}),c.jsx("p",{className:"c-text--body-md c-text--bold",children:"Bachelor's Degree in Informatics Engineering"}),c.jsx("p",{className:"c-text--body-md",children:"Aleppo University"}),c.jsx("p",{className:"c-text--body-md",children:"I have Graduated at the top of my class with aGPA of 87%."}),c.jsx("a",{href:"https://drive.google.com/file/d/1BZFfJwNvqzjP9Brtaltkexuc5lVQBDa7/view?usp=sharing",target:"_blank",rel:"noreferrer",className:"btn ",children:"Academic Trascripts"})]})})]}),c.jsx("hr",{className:"c-horizontal-separator--color-white c-horizontal-separator--height-1"}),c.jsxs("div",{className:"languages-profeciency",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Languages profeciency"}),c.jsxs("ul",{children:[c.jsxs("li",{children:[c.jsx("img",{src:A0}),c.jsx("span",{className:"c-text--label-lg c-text--bold",children:"English"})]}),c.jsxs("li",{children:[c.jsx("img",{src:_0}),c.jsx("span",{className:"c-text--label-lg c-text--bold",children:"Arabic"})]})]})]})]})]})}const O0=we.section`
+`,_0="/Portfolio/assets/arabic-flag-ba125a22.svg",A0="/Portfolio/assets/english-flag-8f453a18.svg";function I0(){return c.jsxs(N0,{children:[c.jsx(wo,{backgroundColor:"rgba(91, 91, 165, 0.7)",children:"About me"}),c.jsxs("div",{className:"body",children:[c.jsxs("div",{className:"brief",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Brief"}),c.jsxs("ul",{children:[c.jsx("li",{className:"c-text--body-md",children:"I am a Full-stack web developer with 2+ years of experience in web development."}),c.jsx("li",{className:"c-text--body-md",children:"I have a strong background in designing and developing web applications using Figma, React and Laravel."})]}),c.jsx("a",{href:"https://drive.google.com/file/d/1gTxXiLMJh-FKnex2cH16WqQeUxV3vpay/view?usp=sharing",target:"_blank",rel:"noreferrer",className:"btn ",children:"Download CV"})]}),c.jsx("hr",{className:"c-horizontal-separator--color-white c-horizontal-separator--height-1"}),c.jsxs("div",{className:"education",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Education"}),c.jsx("ul",{children:c.jsxs("li",{children:[c.jsx("p",{className:"c-text--body-md",children:"10/2015 - 11/2020"}),c.jsx("p",{className:"c-text--body-md c-text--bold",children:"Bachelor's Degree in Informatics Engineering"}),c.jsx("p",{className:"c-text--body-md",children:"Aleppo University"}),c.jsx("p",{className:"c-text--body-md",children:"I have Graduated at the top of my class with a GPA of 87%."}),c.jsx("a",{href:"https://drive.google.com/file/d/1BZFfJwNvqzjP9Brtaltkexuc5lVQBDa7/view?usp=sharing",target:"_blank",rel:"noreferrer",className:"btn ",children:"Academic Trascripts"})]})})]}),c.jsx("hr",{className:"c-horizontal-separator--color-white c-horizontal-separator--height-1"}),c.jsxs("div",{className:"languages-profeciency",children:[c.jsx("h2",{className:"c-text--title-lg c-text--bold",children:"Languages profeciency"}),c.jsxs("ul",{children:[c.jsxs("li",{children:[c.jsx("img",{src:A0}),c.jsx("span",{className:"c-text--label-lg c-text--bold",children:"English"})]}),c.jsxs("li",{children:[c.jsx("img",{src:_0}),c.jsx("span",{className:"c-text--label-lg c-text--bold",children:"Arabic"})]})]})]})]})]})}const O0=we.section`
   display: flex;
   align-items: center;
   padding: 25px 150px 25px 50px;

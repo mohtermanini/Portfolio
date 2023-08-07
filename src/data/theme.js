@@ -5,6 +5,9 @@ export const theme = {
         bold: "700 48px/62px Roboto",
       },
       sm: {
+        bold: "700 34px/48px Roboto",
+      },
+      xs: {
         bold: "700 26px/40px Roboto",
       },
     },

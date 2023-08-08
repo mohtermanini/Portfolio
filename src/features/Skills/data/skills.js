@@ -34,7 +34,7 @@ export const skillsCategories = [
       "Bootstrap",
       "SASS",
       "JavaScript",
-      "JQuery",
+      "jQuery",
       "React",
       "Next.js",
     ],
@@ -62,7 +62,7 @@ export const skillsIcons = {
   Bootstrap: bootstrapIcon.src,
   SASS: sassIcon.src,
   JavaScript: javascriptIcon.src,
-  JQuery: jqueryIcon.src,
+  jQuery: jqueryIcon.src,
   React: reactIcon.src,
   "Next.js": nextjsIcon.src,
   PHP: phpIcon.src,
@@ -74,5 +74,5 @@ export const skillsIcons = {
   Git: gitIcon.src,
   "Problem Solving": problemSolvingIcon.src,
   Java: javaIcon.src,
-  "Database Design": sqlIcon
+  "Database Design": sqlIcon,
 };

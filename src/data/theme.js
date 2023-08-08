@@ -59,22 +59,22 @@ export const theme = {
     },
     body: {
       xxl: {
-        regular: "400 24px/32px Roboto",
+        regular: "400 24px/36px Roboto",
       },
       xl: {
-        regular: "400 22px/30px Roboto",
+        regular: "400 22px/34px Roboto",
       },
       lg: {
-        regular: "400 20px/28px Roboto",
+        regular: "400 20px/32px Roboto",
       },
       md: {
-        regular: "400 18px/26px Roboto",
+        regular: "400 18px/30px Roboto",
       },
       sm: {
-        regular: "400 16px/24px Roboto",
+        regular: "400 16px/28px Roboto",
       },
       xs: {
-        regular: "400 14px/22px Roboto",
+        regular: "400 14px/26px Roboto",
       },
     },
     label: {

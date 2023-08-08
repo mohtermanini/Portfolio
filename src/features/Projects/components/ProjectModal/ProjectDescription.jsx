@@ -71,7 +71,6 @@ const SkillsList = styled.ul`
   gap: 20px 25px;
   display: flex;
   flex-wrap: wrap;
-
 `;
 
 const SeparatorContainer = styled.div`
@@ -108,7 +107,7 @@ export default function ProjectDescription({ title, sections, skills, link }) {
           <SectionSeparator />
         </SeparatorContainer>
         <SiteLinkContainer>
-          <a target="_blank" href={link}>
+          <a target="_blank" rel="noreferrer" href={link}>
             <VisitSiteButton>
               Visit Site <HiOutlineExternalLink />
             </VisitSiteButton>

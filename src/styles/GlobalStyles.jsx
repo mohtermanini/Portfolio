@@ -32,6 +32,11 @@ export const GlobalStyles = createGlobalStyle`
       border-radius: 5px;
       padding: 10px 20px;
     }
+
+     a {
+      color: inherit;
+      text-decoration: none;
+     }
 `;
 
 export const Container = styled.div`

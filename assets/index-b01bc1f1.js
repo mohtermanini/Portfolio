@@ -1532,7 +1532,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
   .c-other-experience {
     width: 50%;
-    order: 1;
+    order: 0;
     padding: 30px 35px;
     @media (max-width: ${se.lg}) {
       width: 100%;

@@ -38,12 +38,15 @@ export const Speciality = styled.p`
   }
 `;
 export const Name = styled.p`
-  font: ${theme.typography.display.md.bold};
+  font: ${theme.typography.display.xl.bold};
   @media (max-width: ${breakpoints.desktop}) {
-    font: ${theme.typography.display.sm.bold};
+    font: ${theme.typography.display.lg.bold};
+  }
+  @media (max-width: ${breakpoints.tablet}) {
+    font: ${theme.typography.display.md.bold};
   }
   @media (max-width: ${breakpoints.mobile}) {
-    font: ${theme.typography.display.xs.bold};
+    font: ${theme.typography.display.sm.bold};
   }
 `;
 export const Address = styled.p`
@@ -64,7 +67,7 @@ export default function Hero() {
     <StyledHero>
       <HeroContainer>
         <Speciality>Full-Stack Web Developer, Web Designer</Speciality>
-        <Name>Moahmad Termanini</Name>
+        <Name>Mohamad Termanini</Name>
         <Address>
           <HiLocationMarker />
           Located in Dubai, UAE

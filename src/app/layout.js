@@ -1,3 +1,4 @@
+import Providers from "@/components/Providers/Providers";
 import { StyledComponentsRegistry } from "@/styles/StyledComponentsRegistry";
 
 export const metadata = {
@@ -9,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <Providers>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </Providers>
       </body>
     </html>
   );

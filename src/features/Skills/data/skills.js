@@ -27,7 +27,7 @@ import javaIcon from "../../../assets/images/skills/java.svg";
 export const skillsCategories = [
   {
     name: "Front-end",
-    icon: frontendIcon,
+    icon: frontendIcon.src,
     skills: [
       "HTML",
       "CSS",
@@ -41,17 +41,17 @@ export const skillsCategories = [
   },
   {
     name: "Back-end",
-    icon: backendIcon,
+    icon: backendIcon.src,
     skills: ["PHP", "Laravel", "SQL", "System Design"],
   },
   {
     name: "Design",
-    icon: designIcon,
+    icon: designIcon.src,
     skills: ["Adobe XD", "Figma"],
   },
   {
     name: "Others",
-    icon: othersIcon,
+    icon: othersIcon.src,
     skills: ["Git", "Problem Solving", "Java"],
   },
 ];

@@ -5,7 +5,7 @@ import { Container } from "@/styles/GlobalStyles";
 import React from "react";
 import { styled } from "styled-components";
 
-const StyledSectionTitle = styled.div`
+const StyledSectionTitle = styled( ({backgroundColor, ...props}) => <div {...props}/>)`
   background-color: ${({ backgroundColor }) => backgroundColor};
   padding: 32px 60px;
   @media (max-width: ${breakpoints.desktop}) {

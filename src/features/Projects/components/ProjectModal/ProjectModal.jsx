@@ -68,6 +68,10 @@ const CloseButtonContainer = styled.div`
   position: absolute;
   top: 10px;
   right: 10px;
+  button {
+    padding: 8px 12px;
+  
+  }
 `;
 
 export default function ProjectModal() {

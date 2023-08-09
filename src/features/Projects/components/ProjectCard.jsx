@@ -5,7 +5,7 @@ import { theme } from "@/data/theme";
 import Image from "next/image";
 import { css, styled } from "styled-components";
 
-const StyledProjectCard = styled.button`
+const StyledProjectCard = styled(({ active, ...props }) => <button {...props}/>)`
   padding: 15px 15px 10px 15px;
   display: flex;
   flex-direction: column;

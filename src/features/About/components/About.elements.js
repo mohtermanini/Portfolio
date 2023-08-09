@@ -3,7 +3,7 @@ import { theme } from "@/data/theme";
 import { styled } from "styled-components";
 
 export const AboutSubTitle = styled.h3`
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   font: ${theme.typography.title.lg.bold};
   @media (max-width: ${breakpoints.laptop}) {
     font: ${theme.typography.title.md.bold};
@@ -28,9 +28,21 @@ export const AboutList = styled.ul`
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   margin-bottom: 12px;
 `;
 export const AboutListItem = styled.li``;
 
 export const AboutLink = styled.a``;
+
+export const AboutSeparator = styled.hr`
+  width: 60px;
+  height: 1px;
+  margin: 28px 0;
+  @media (max-width: ${breakpoints.tablet}) {
+    margin: 24px 0;
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    margin: 20px 0;
+  }
+`;

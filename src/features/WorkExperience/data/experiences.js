@@ -282,7 +282,7 @@ export const experiences = [
           I solved over 850 problems which involved different algorithms and
           data structures onwebsites like Codeforces, UVa Online Judge, Spoj.
           <p className="stoptalk-profile">
-            My profile on{" "}
+            - My profile on{" "}
             <a
               href="https://www.stopstalk.com/user/profile/Mohamad_Termanini"
               target="_blank"

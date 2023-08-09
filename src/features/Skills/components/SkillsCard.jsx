@@ -39,6 +39,7 @@ const SkillsList = styled.ul`
   gap: 20px 25px;
   flex-wrap: wrap;
   margin-left: 55px;
+
 `;
 
 

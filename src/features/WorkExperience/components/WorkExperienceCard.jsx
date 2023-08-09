@@ -5,12 +5,12 @@ import Image from "next/image";
 import React from "react";
 import { styled } from "styled-components";
 
-const StyledWorkExperienceCard = styled.div`
+const StyledWorkExperienceCard = styled(({evenChild, ...props}) => <div {...props}/>)`
   display: flex;
   flex-direction: ${({ evenChild }) => (evenChild ? "row-reverse" : "row")};
 `;
 
-const Body = styled.div`
+const Body = styled(({ evenChild, ...props }) => <div {...props} />)`
   background-color: ${({ evenChild }) =>
     evenChild ? "rgba(16, 58, 77, 0.7)" : "rgba(28, 96, 124, 0.7)"};
   width: 50%;

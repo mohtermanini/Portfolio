@@ -7,6 +7,7 @@ import Brief from "./Brief";
 import { breakpoints } from "@/data/breakpoints";
 import Education from "./Education";
 import Languages from "./Languages";
+import { AboutSeparator } from "./About.elements";
 
 const AboutBody = styled.div`
   display: flex;
@@ -20,12 +21,6 @@ const AboutBody = styled.div`
 const AboutBodyContainer = styled(Container)`
  
 `;
-
-const AboutSeparator = styled.hr`
-    width: 60px;
-    height: 1px;
-    margin: 16px 0;
-`
 
 export default function About() {
   return (

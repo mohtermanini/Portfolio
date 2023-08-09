@@ -11,12 +11,15 @@ const StyledSecondaryButton = styled.button`
   color: ${theme.palette.white};
   cursor: pointer;
   border-radius: 5px;
-  padding: 10px 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  font: ${theme.typography.body.sm.regular};
+  padding: 12px 20px;
+  font: ${theme.typography.label.xl.regular};
   @media (max-width: ${breakpoints.laptop}) {
-    font: ${theme.typography.body.xs.regular};
-    padding: 6px 12px;
+    font: ${theme.typography.label.lg.regular};
+    padding: 12px 16px;
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    padding: 10px 16px;
   }
   &:hover {
     background: linear-gradient(

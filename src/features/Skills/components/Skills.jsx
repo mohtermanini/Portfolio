@@ -15,6 +15,12 @@ const SkillsBody = styled.div`
   @media (max-width: ${breakpoints.laptop}) {
     padding: 40px 70px;
   }
+  @media (max-width: ${breakpoints.tablet}) {
+    padding: 40px 40px;
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    padding: 40px 20px;
+  }
 `;
 
 const SkillsBodyContainer = styled(Container)`
@@ -24,12 +30,11 @@ const SkillsBodyContainer = styled(Container)`
   column-gap: 50px;
   width: 100%;
   @media (max-width: ${breakpoints.laptop}) {
-    column-gap: 30px;
-  }
-  @media (max-width: ${breakpoints.tablet}) {
     grid-template-columns: 1fr;
     row-gap: 30px;
+    width: auto;
   }
+  
 `;
 
 export default function Skills() {

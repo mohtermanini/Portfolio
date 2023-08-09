@@ -14,7 +14,7 @@ const StyledEducation = styled.div``;
 const EducationItem = styled.div`
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     margin-bottom: 12px;
 `;
 const Date = styled.p``;

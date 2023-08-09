@@ -128,7 +128,7 @@ const InfoListItem = styled.p`
 
 const Icon = styled(Image)``;
 
-const InfoText = styled.p``;
+const InfoText = styled.span``;
 
 export default function Footer() {
   return (

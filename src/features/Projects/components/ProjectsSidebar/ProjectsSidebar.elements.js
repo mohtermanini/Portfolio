@@ -22,7 +22,7 @@ export const DesktopMenu = styled.div`
   }
 `;
 
-export const CategoryButton = styled.button`
+export const CategoryButton = styled(({ active, ...props }) => <button {...props} />)`
   padding: 20px 30px;
   border-bottom: 1px solid rgb(255, 255, 255);
   border-radius: 0;

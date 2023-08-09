@@ -79,21 +79,27 @@ export const theme = {
     },
     label: {
       xxl: {
+        bold: "700 18px/20px Roboto",
         regular: "400 18px/20px Roboto",
       },
       xl: {
+        bold: "700 16px/18px Roboto",
         regular: "400 16px/18px Roboto",
       },
       lg: {
+        bold: "700 14px/16px Roboto",
         regular: "400 14px/16px Roboto",
       },
       md: {
+        bold: "700 12px/14px Roboto",
         regular: "400 12px/14px Roboto",
       },
       sm: {
+        bold: "700 10px/12px Roboto",
         regular: "400 10px/12px Roboto",
       },
       xs: {
+        bold: "700 8px/10px Roboto",
         regular: "400 8px/10px Roboto",
       },
     },

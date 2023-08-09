@@ -1,28 +1,28 @@
-import frontendIcon from "../../../assets/images/skills/front-end.svg";
-import backendIcon from "../../../assets/images/skills/back-end.svg";
-import designIcon from "../../../assets/images/skills/design.svg";
-import othersIcon from "../../../assets/images/skills/others.svg";
+import frontendIcon from "../assets/images/front-end.svg";
+import backendIcon from "../assets/images/back-end.svg";
+import designIcon from "../assets/images/design.svg";
+import othersIcon from "../assets/images/others.svg";
 
-import htmlIcon from "../../../assets/images/skills/html.svg";
-import cssIcon from "../../../assets/images/skills/css.svg";
-import sassIcon from "../../../assets/images/skills/sass.svg";
-import bootstrapIcon from "../../../assets/images/skills/bootstrap.svg";
-import javascriptIcon from "../../../assets/images/skills/javascript.svg";
-import jqueryIcon from "../../../assets/images/skills/jquery.svg";
-import reactIcon from "../../../assets/images/skills/react.svg";
-import nextjsIcon from "../../../assets/images/skills/nextjs.svg";
+import htmlIcon from "../assets/images/html.svg";
+import cssIcon from "../assets/images/css.svg";
+import sassIcon from "../assets/images/sass.svg";
+import bootstrapIcon from "../assets/images/bootstrap.svg";
+import javascriptIcon from "../assets/images/javascript.svg";
+import jqueryIcon from "../assets/images/jquery.svg";
+import reactIcon from "../assets/images/react.svg";
+import nextjsIcon from "../assets/images/nextjs.svg";
 
-import phpIcon from "../../../assets/images/skills/php.svg";
-import laravelIcon from "../../../assets/images/skills/laravel.svg";
-import sqlIcon from "../../../assets/images/skills/sql.svg";
+import phpIcon from "../assets/images/php.svg";
+import laravelIcon from "../assets/images/laravel.svg";
+import sqlIcon from "../assets/images/sql.svg";
 
-import systemDesignIcon from "../../../assets/images/skills/system-design.svg";
-import adobeXDIcon from "../../../assets/images/skills/adobe-xd.svg";
-import figmaIcon from "../../../assets/images/skills/figma.svg";
+import systemDesignIcon from "../assets/images/system-design.svg";
+import adobeXDIcon from "../assets/images/adobe-xd.svg";
+import figmaIcon from "../assets/images/figma.svg";
 
-import gitIcon from "../../../assets/images/skills/git.svg";
-import problemSolvingIcon from "../../../assets/images/skills/problem-solving.svg";
-import javaIcon from "../../../assets/images/skills/java.svg";
+import gitIcon from "../assets/images/git.svg";
+import problemSolvingIcon from "../assets/images/problem-solving.svg";
+import javaIcon from "../assets/images/java.svg";
 
 export const skillsCategories = [
   {

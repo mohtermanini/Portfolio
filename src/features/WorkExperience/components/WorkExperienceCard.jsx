@@ -1,7 +1,6 @@
 import { breakpoints } from "@/data/breakpoints";
 import { theme } from "@/data/theme";
 import SkillLabel from "@/features/Skills/components/SkillLabel";
-import Image from "next/image";
 import React from "react";
 import { styled } from "styled-components";
 
@@ -100,8 +99,10 @@ const ImageContainer = styled.div`
     display: none;
   }
 `;
-const SideImage = styled(Image)`
+const SideImage = styled.img`
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 `;
 
 const WorkLinks = styled.div`
@@ -171,7 +172,7 @@ export default function WorkExperienceCard({
         )}
       </Body>
       <ImageContainer>
-        <SideImage src={image} alt="" fill />
+        <SideImage src={image} alt="" />
       </ImageContainer>
     </StyledWorkExperienceCard>
   );

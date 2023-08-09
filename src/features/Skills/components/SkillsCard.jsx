@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { styled } from "styled-components";
 import SkillLabel from "./SkillLabel";
@@ -21,8 +20,7 @@ const Header = styled.div`
   align-items: center;
   gap: 15px;
 `;
-const Icon = styled(Image)`
-`;
+const Icon = styled.img``;
 
 const Title = styled.h3`
   font: ${theme.typography.title.lg.bold};

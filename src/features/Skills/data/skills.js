@@ -74,5 +74,5 @@ export const skillsIcons = {
   Git: gitIcon.src,
   "Problem Solving": problemSolvingIcon.src,
   Java: javaIcon.src,
-  "Database Design": sqlIcon,
+  "Database Design": sqlIcon.src,
 };

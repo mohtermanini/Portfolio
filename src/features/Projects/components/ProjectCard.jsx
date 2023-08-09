@@ -2,10 +2,11 @@ import React from "react";
 import { useProjects } from "../contexts/ProjectsProvider";
 import { breakpoints } from "@/data/breakpoints";
 import { theme } from "@/data/theme";
-import Image from "next/image";
 import { css, styled } from "styled-components";
 
-const StyledProjectCard = styled(({ active, ...props }) => <button {...props}/>)`
+const StyledProjectCard = styled(({ active, ...props }) => (
+  <button {...props} />
+))`
   padding: 15px 15px 10px 15px;
   display: flex;
   flex-direction: column;
@@ -37,9 +38,11 @@ const ImageContainer = styled.div`
   }
 `;
 
-const Thumbnail = styled(Image)`
+const Thumbnail = styled.img`
   object-fit: cover;
   border-radius: 5px;
+  width: 100%;
+  height: 100%;
 `;
 
 const Title = styled.h4`
@@ -64,7 +67,7 @@ export default function ProjectCard({ title, mainThumbnail }) {
       onClick={onClickProjectCard}
     >
       <ImageContainer>
-        <Thumbnail src={mainThumbnail} alt="" fill />
+        <Thumbnail src={mainThumbnail} alt="" />
       </ImageContainer>
       <Title>{title}</Title>
     </StyledProjectCard>

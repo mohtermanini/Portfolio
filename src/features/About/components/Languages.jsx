@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import arabicFlag from "../assets/images/arabic-flag.svg";
 import englishFlag from "../assets/images/english-flag.svg";
@@ -25,7 +24,7 @@ const LanguageLabel = styled.div`
   align-items: center;
   gap: 15px;
 `;
-const Flag = styled(Image)`
+const Flag = styled.img`
   margin-left: -20px;
 `;
 const Language = styled.p`

@@ -7,7 +7,6 @@ import linkedinIcon from "../assets/images/linkedin.svg";
 import phoneIcon from "../assets/images/phone.svg";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
-import Image from "next/image";
 import { Container } from "@/styles/GlobalStyles";
 
 const StyledFooter = styled.div`
@@ -126,7 +125,7 @@ const InfoListItem = styled.p`
   }
 `;
 
-const Icon = styled(Image)``;
+const Icon = styled.img``;
 
 const InfoText = styled.span``;
 

@@ -18,8 +18,9 @@ const nextConfig = {
   basePath: basePath,
   assetPrefix: assetPrefix,
   images: {
-    loader: "imgix",
-    path: "https://mohamadtermanini-121374497.imgix.net",
+    unoptimized: true,
+    // loader: "imgix",
+    // path: "https://mohamadtermanini-121374497.imgix.net",
     remotePatterns: [
       {
         protocol: "http",

@@ -26,8 +26,6 @@ const ModalBody = styled.div`
   position: relative;
   max-height: 100%;
   border: 1px solid rgb(255, 255, 255);
-  top: 0px;
-  left: 0px;
   max-width: 1000px;
   background-color: rgb(30, 30, 30);
   padding: 50px;

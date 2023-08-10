@@ -41,6 +41,7 @@ const ImageContainer = styled.div`
 
 const Thumbnail = styled(Image)`
   object-fit: cover;
+  object-position: top;
   border-radius: 5px;
 `;
 

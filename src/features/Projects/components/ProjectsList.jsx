@@ -78,7 +78,6 @@ export default function ProjectsList() {
   const { selectedCategory } = useProjects();
   const { selectedProject } = useSelectedProject();
   const { showModal, setShowModal } = useModals();
-
   function onClickDetailsButton() {
     setShowModal(true);
   }
@@ -87,7 +86,7 @@ export default function ProjectsList() {
     <StyledProjectsList>
       <CSSTransition
         in={showModal}
-        timeout={750}
+        timeout={500}
         classNames={"fade"}
         appear={true}
         unmountOnExit={true}

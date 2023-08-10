@@ -6,7 +6,9 @@ Portfolio of Mohamad Termanini.
 
 ## Technical section
 * Languages:
+    * JavaScript
     * React
+    * Next.js
 
 ## Images and icons credits
 [uxwing](https://uxwing.com)

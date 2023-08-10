@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import SkillLabel from "./SkillLabel";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
+import Image from "next/image";
 
 const StyledSkillsCard = styled.div`
   display: flex;
@@ -20,7 +21,7 @@ const Header = styled.div`
   align-items: center;
   gap: 15px;
 `;
-const Icon = styled.img``;
+const Icon = styled(Image)``;
 
 const Title = styled.h3`
   font: ${theme.typography.title.lg.bold};

@@ -1,5 +1,6 @@
 import Spinner from "@/components/Spinner/Spinner";
 import { breakpoints } from "@/data/breakpoints";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
 
@@ -24,7 +25,7 @@ const MainImageContainer = styled.div`
   }
 `;
 
-const MainImage = styled.img`
+const MainImage = styled(Image)`
   width: 100%;
   height: 100%;
   object-fit: contain;

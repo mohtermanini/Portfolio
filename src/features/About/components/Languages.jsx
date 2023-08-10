@@ -5,6 +5,7 @@ import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
 import { styled } from "styled-components";
 import { AboutSubTitle } from "./About.elements";
+import Image from "next/image";
 
 const StyledLanguages = styled.div``;
 const LanguagesLabels = styled.div`
@@ -24,7 +25,7 @@ const LanguageLabel = styled.div`
   align-items: center;
   gap: 15px;
 `;
-const Flag = styled.img`
+const Flag = styled(Image)`
   margin-left: -20px;
 `;
 const Language = styled.p`

@@ -3,6 +3,7 @@ import { useProjects } from "../contexts/ProjectsProvider";
 import { breakpoints } from "@/data/breakpoints";
 import { theme } from "@/data/theme";
 import { css, styled } from "styled-components";
+import Image from "next/image";
 
 const StyledProjectCard = styled(({ active, ...props }) => (
   <button {...props} />
@@ -38,7 +39,7 @@ const ImageContainer = styled.div`
   }
 `;
 
-const Thumbnail = styled.img`
+const Thumbnail = styled(Image)`
   object-fit: cover;
   border-radius: 5px;
   width: 100%;

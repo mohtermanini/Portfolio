@@ -3,6 +3,7 @@ import { css, styled } from "styled-components";
 import { skillsIcons } from "../data/skills";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
+import Image from "next/image";
 
 const StyledSkillLabel = styled.div`
   display: flex;
@@ -44,7 +45,7 @@ const Title = styled.p`
 export default function SkillLabel({ skill, size = "md" }) {
   return (
     <StyledSkillLabel size={size}>
-      <img src={skillsIcons[skill]} alt="" width={25} height={25} />
+      <Image src={skillsIcons[skill]} alt="" width={25} height={25} />
       <Title>{skill}</Title>
     </StyledSkillLabel>
   );

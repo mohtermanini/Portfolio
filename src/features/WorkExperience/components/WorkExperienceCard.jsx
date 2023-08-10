@@ -1,6 +1,7 @@
 import { breakpoints } from "@/data/breakpoints";
 import { theme } from "@/data/theme";
 import SkillLabel from "@/features/Skills/components/SkillLabel";
+import Image from "next/image";
 import React from "react";
 import { styled } from "styled-components";
 
@@ -99,7 +100,7 @@ const ImageContainer = styled.div`
     display: none;
   }
 `;
-const SideImage = styled.img`
+const SideImage = styled(Image)`
   object-fit: cover;
   width: 100%;
   height: 100%;

@@ -8,6 +8,7 @@ import phoneIcon from "../assets/images/phone.svg";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
 import { Container } from "@/styles/GlobalStyles";
+import Image from "next/image";
 
 const StyledFooter = styled.div`
   padding: 25px 70px 25px 50px;
@@ -125,7 +126,7 @@ const InfoListItem = styled.p`
   }
 `;
 
-const Icon = styled.img``;
+const Icon = styled(Image)``;
 
 const InfoText = styled.span``;
 

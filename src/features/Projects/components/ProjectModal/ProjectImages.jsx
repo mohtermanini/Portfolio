@@ -1,6 +1,6 @@
 import Spinner from "@/components/Spinner/Spinner";
 import { breakpoints } from "@/data/breakpoints";
-import Image from "next/image";
+import NextImage from "next/image";
 import React, { useEffect, useState } from "react";
 import { styled } from "styled-components";
 
@@ -25,9 +25,7 @@ const MainImageContainer = styled.div`
   }
 `;
 
-const MainImage = styled(Image)`
-  width: 100%;
-  height: 100%;
+const MainImage = styled(NextImage)`
   object-fit: contain;
 `;
 
@@ -58,7 +56,7 @@ export default function ProjectImages({ images }) {
     <StyledProjectImages>
       <MainImageContainer>
         {!loadedImages.has(selectedImage.original) && <Spinner />}
-        <MainImage src={currentImageSource} alt="" />
+        <MainImage src={currentImageSource} alt="" fill />
       </MainImageContainer>
     </StyledProjectImages>
   );

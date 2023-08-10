@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { styled } from "styled-components";
-import githubIcon from "../assets/images/github.svg";
-import emailIcon from "../assets/images/email.svg";
-import linkedinIcon from "../assets/images/linkedin.svg";
-import phoneIcon from "../assets/images/phone.svg";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
 import { Container } from "@/styles/GlobalStyles";
-import Image from "next/image";
+import githubIcon from "../../../../public/assets/images/footer/github.svg";
+import emailIcon from "../../../../public/assets/images/footer/email.svg";
+import linkedinIcon from "../../../../public/assets/images/footer/linkedin.svg";
+import phoneIcon from "../../../../public/assets/images/footer/phone.svg";
 
 const StyledFooter = styled.div`
   padding: 25px 70px 25px 50px;

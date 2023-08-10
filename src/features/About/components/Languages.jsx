@@ -1,11 +1,11 @@
 import React from "react";
-import arabicFlag from "../assets/images/arabic-flag.svg";
-import englishFlag from "../assets/images/english-flag.svg";
+import Image from "next/image";
+import { styled } from "styled-components";
 import { theme } from "@/data/theme";
 import { breakpoints } from "@/data/breakpoints";
-import { styled } from "styled-components";
 import { AboutSubTitle } from "./About.elements";
-import Image from "next/image";
+import arabicFlag from "../../../../public/assets/images/about/arabic-flag.svg";
+import englishFlag from "../../../../public/assets/images/about/english-flag.svg";
 
 const StyledLanguages = styled.div``;
 const LanguagesLabels = styled.div`
@@ -44,11 +44,11 @@ export default function Languages() {
       <AboutSubTitle>Languages profeciency</AboutSubTitle>
       <LanguagesLabels>
         <LanguageLabel>
-          <Flag src={englishFlag.src} alt="" width={40} height={40} />
+          <Flag src={englishFlag} alt="" width={40} height={40} />
           <Language>English</Language>
         </LanguageLabel>
         <LanguageLabel>
-          <Flag src={arabicFlag.src} alt="" width={40} height={40} />
+          <Flag src={arabicFlag} alt="" width={40} height={40} />
           <Language>Arabic</Language>
         </LanguageLabel>
       </LanguagesLabels>

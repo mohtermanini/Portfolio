@@ -102,8 +102,6 @@ const ImageContainer = styled.div`
 `;
 const SideImage = styled(Image)`
   object-fit: cover;
-  width: 100%;
-  height: 100%;
 `;
 
 const WorkLinks = styled.div`
@@ -173,7 +171,7 @@ export default function WorkExperienceCard({
         )}
       </Body>
       <ImageContainer>
-        <SideImage src={image} alt="" />
+        <SideImage src={image} alt="" fill/>
       </ImageContainer>
     </StyledWorkExperienceCard>
   );

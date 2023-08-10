@@ -1,12 +1,12 @@
-import leadvyImage from "../assets/images/1.jpg";
-import NamaaImage from "../assets/images/2.jpg";
-import EasyBookImage from "../assets/images/3.jpg";
-import BattleshipImage from "../assets/images/4.jpg";
-import memoryCardImage from "../assets/images/5.jpg";
-import sihatiImage from "../assets/images/6.jpg";
-import flyFoodImage from "../assets/images/7.jpg";
-import yellowPagesImage from "../assets/images/8.jpg";
-import otherExperienceImage from "../assets/images/9.jpg";
+import leadvyImage from "../../../../public/assets/images/work-experience/1.jpg";
+import NamaaImage from "../../../../public/assets/images/work-experience/2.jpg";
+import EasyBookImage from "../../../../public//assets/images/work-experience/3.jpg";
+import BattleshipImage from "../../../../public//assets/images/work-experience/4.jpg";
+import memoryCardImage from "../../../../public//assets/images/work-experience/5.jpg";
+import sihatiImage from "../../../../public//assets/images/work-experience/6.jpg";
+import flyFoodImage from "../../../../public//assets/images/work-experience/7.jpg";
+import yellowPagesImage from "../../../../public//assets/images/work-experience/8.jpg";
+import otherExperienceImage from "../../../../public//assets/images/work-experience/9.jpg";
 
 export const experiences = [
   {

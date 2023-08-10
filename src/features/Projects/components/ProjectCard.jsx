@@ -42,8 +42,6 @@ const ImageContainer = styled.div`
 const Thumbnail = styled(Image)`
   object-fit: cover;
   border-radius: 5px;
-  width: 100%;
-  height: 100%;
 `;
 
 const Title = styled.h4`
@@ -68,7 +66,7 @@ export default function ProjectCard({ title, mainThumbnail }) {
       onClick={onClickProjectCard}
     >
       <ImageContainer>
-        <Thumbnail src={mainThumbnail} alt="" />
+        <Thumbnail src={mainThumbnail} alt="" fill/>
       </ImageContainer>
       <Title>{title}</Title>
     </StyledProjectCard>

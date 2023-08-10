@@ -40,7 +40,7 @@ export const experiences = [
       </ul>
     ),
     technicalStack: ["HTML", "CSS", "SASS", "JavaScript", "React", "Next.js"],
-    image: leadvyImage.src,
+    image: leadvyImage,
   },
   {
     workType: "Freelance",
@@ -70,7 +70,7 @@ export const experiences = [
       "jQuery",
       "Laravel",
     ],
-    image: NamaaImage.src,
+    image: NamaaImage,
   },
 
   {
@@ -107,7 +107,7 @@ export const experiences = [
       },
     ],
     technicalStack: ["Adobe XD"],
-    image: EasyBookImage.src,
+    image: EasyBookImage,
   },
 
   {
@@ -142,7 +142,7 @@ export const experiences = [
       },
     ],
     technicalStack: ["Adobe XD", "HTML", "CSS", "SASS", "JavaScript"],
-    image: BattleshipImage.src,
+    image: BattleshipImage,
   },
 
   {
@@ -177,7 +177,7 @@ export const experiences = [
       },
     ],
     technicalStack: ["CSS", "SASS", "React"],
-    image: memoryCardImage.src,
+    image: memoryCardImage,
   },
 
   {
@@ -214,7 +214,7 @@ export const experiences = [
       "jQuery",
       "Laravel",
     ],
-    image: sihatiImage.src,
+    image: sihatiImage,
   },
 
   {
@@ -245,7 +245,7 @@ export const experiences = [
       },
     ],
     technicalStack: ["Adobe XD", "System Design", "Database Design"],
-    image: flyFoodImage.src,
+    image: flyFoodImage,
   },
   {
     workType: "University Homework",
@@ -265,7 +265,7 @@ export const experiences = [
       },
     ],
     technicalStack: ["System Design", "Database Design"],
-    image: yellowPagesImage.src,
+    image: yellowPagesImage,
   },
   {
     workType: null,
@@ -298,6 +298,6 @@ export const experiences = [
         </li>
       </ul>
     ),
-    image: otherExperienceImage.src,
+    image: otherExperienceImage,
   },
 ];

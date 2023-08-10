@@ -147,7 +147,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon src={githubIcon.src} alt="" width={25} height={25} />
+                <Icon src={githubIcon} alt="" width={25} height={25} />
                 <InfoText>Github</InfoText>
               </InfoListItemButton>
               <InfoListItemButton
@@ -155,7 +155,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon src={linkedinIcon.src} alt="" width={25} height={25} />
+                <Icon src={linkedinIcon} alt="" width={25} height={25} />
                 <InfoText>LinkedIn</InfoText>
               </InfoListItemButton>
             </InfoListItems>
@@ -165,11 +165,11 @@ export default function Footer() {
             <InfoTitle>Contact me</InfoTitle>
             <InfoListItems>
               <InfoListItem>
-                <Icon src={phoneIcon.src} alt="" width={25} height={25} />
+                <Icon src={phoneIcon} alt="" width={25} height={25} />
                 <InfoText>+971 545982007</InfoText>
               </InfoListItem>
               <InfoListItem>
-                <Icon src={emailIcon.src} alt="" width={25} height={25} />
+                <Icon src={emailIcon} alt="" width={25} height={25} />
                 <InfoText>mohtermanini.job@gmail.com</InfoText>
               </InfoListItem>
             </InfoListItems>

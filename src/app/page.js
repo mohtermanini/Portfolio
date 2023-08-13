@@ -1,3 +1,4 @@
+import DocumentLoader from "@/components/DocumentLoader/DocumentLoader";
 import Overlay from "@/components/Overlay/Overlay";
 import SectionSeparator from "@/components/Separators/SectionSeparator";
 import About from "@/features/About/components/About";
@@ -12,17 +13,19 @@ export default function Home() {
   return (
     <main>
       <GlobalStyles />
-      <Overlay />
-      <Hero />
-      <SectionSeparator />
-      <Projects />
-      <SectionSeparator />
-      <WorkExperience />
-      <SectionSeparator />
-      <Skills />
-      <SectionSeparator />
-      <About />
-      <Footer />
+      <DocumentLoader>
+        <Overlay />
+        <Hero />
+        <SectionSeparator />
+        <Projects />
+        <SectionSeparator />
+        <WorkExperience />
+        <SectionSeparator />
+        <Skills />
+        <SectionSeparator />
+        <About />
+        <Footer />
+      </DocumentLoader>
     </main>
   );
 }

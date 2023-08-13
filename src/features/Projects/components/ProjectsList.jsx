@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { useProjects } from "../contexts/ProjectsProvider";
 import { categories } from "../data/projects";
 import ProjectCard from "./ProjectCard";

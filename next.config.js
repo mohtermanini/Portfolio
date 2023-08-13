@@ -15,8 +15,8 @@ if (isGithubActions) {
 const nextConfig = {
   output: "export",
   distDir: "dist",
-  basePath: basePath,
-  assetPrefix: assetPrefix,
+  // basePath: basePath,
+  // assetPrefix: assetPrefix,
   images: {
     unoptimized: true,
     // loader: "imgix",

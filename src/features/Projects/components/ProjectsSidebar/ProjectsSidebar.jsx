@@ -11,6 +11,7 @@ import {
   MobileMenu,
   StyledProjectsSidebar,
   MobileCategoryButton,
+  MobileCategoriesListWrapper,
 } from "./ProjectsSidebar.elements";
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -54,24 +55,23 @@ export default function ProjectsSidebar() {
       </DesktopMenu>
       <MobileMenu>
         <MobileCategoryTitle>{selectedCategory}</MobileCategoryTitle>
-        <MobileCategoriesList
-          listHeight={categoriesListHeight}
-          ref={categoriesListRef}
-        >
-          {categories.map((category) => (
-            <Fragment key={category.name}>
-              {category.name !== selectedCategory && (
-                <MobileCategoryButton
-                  onClick={() => {
-                    onClickCategoryButton(category.name);
-                  }}
-                >
-                  <CategoryTitle>{category.name}</CategoryTitle>
-                </MobileCategoryButton>
-              )}
-            </Fragment>
-          ))}
-        </MobileCategoriesList>
+        <MobileCategoriesListWrapper listHeight={categoriesListHeight}>
+          <MobileCategoriesList ref={categoriesListRef}>
+            {categories.map((category) => (
+              <Fragment key={category.name}>
+                {category.name !== selectedCategory && (
+                  <MobileCategoryButton
+                    onClick={() => {
+                      onClickCategoryButton(category.name);
+                    }}
+                  >
+                    <CategoryTitle>{category.name}</CategoryTitle>
+                  </MobileCategoryButton>
+                )}
+              </Fragment>
+            ))}
+          </MobileCategoriesList>
+        </MobileCategoriesListWrapper>
         <HamburgerButton onClick={onClickHamburgerButton}>
           <RxHamburgerMenu />
         </HamburgerButton>

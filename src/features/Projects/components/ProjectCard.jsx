@@ -1,9 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import { useProjects } from "../contexts/ProjectsProvider";
 import { breakpoints } from "@/data/breakpoints";
 import { theme } from "@/data/theme";
 import { css, styled } from "styled-components";
-import Image from "next/image";
 
 const StyledProjectCard = styled(({ active, ...props }) => (
   <button {...props} />
@@ -56,18 +56,28 @@ const Title = styled.h4`
   }
 `;
 
-export default function ProjectCard({ title, mainThumbnail }) {
+export default function ProjectCard({
+  title,
+  mainThumbnail,
+  projectDescriptionSectionRef,
+}) {
   const { selectedProjectTitle, setSelectedProjectTitle } = useProjects();
+
   function onClickProjectCard() {
     setSelectedProjectTitle(title);
+    projectDescriptionSectionRef.current.scrollIntoView({
+      block: "end",
+      behavior: "smooth",
+    });
   }
+
   return (
     <StyledProjectCard
       active={title === selectedProjectTitle}
       onClick={onClickProjectCard}
     >
       <ImageContainer>
-        <Thumbnail src={mainThumbnail} alt="" fill/>
+        <Thumbnail src={mainThumbnail} alt="" fill />
       </ImageContainer>
       <Title>{title}</Title>
     </StyledProjectCard>

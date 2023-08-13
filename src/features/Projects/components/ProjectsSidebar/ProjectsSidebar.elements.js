@@ -22,7 +22,9 @@ export const DesktopMenu = styled.div`
   }
 `;
 
-export const CategoryButton = styled(({ active, ...props }) => <button {...props} />)`
+export const CategoryButton = styled(({ active, ...props }) => (
+  <button {...props} />
+))`
   padding: 20px 30px;
   border-bottom: 1px solid rgb(255, 255, 255);
   border-radius: 0;
@@ -112,15 +114,20 @@ export const MobileCategoryButton = styled(CategoryButton)`
   border-top: 1px solid rgb(255, 255, 255);
 `;
 
-export const MobileCategoriesList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out;
-  max-height: ${({ listHeight }) => `${listHeight}px`};
+export const MobileCategoriesListWrapper = styled(
+  ({ listHeight, ...props }) => <div {...props} />
+)`
   position: absolute;
   top: 100%;
   width: 100%;
+  max-height: ${({ listHeight }) => `${listHeight}px`};
+  transition: max-height 0.5s ease-out;
   z-index: 1;
+  overflow: hidden;
   background-color: rgba(34, 35, 77, 0.7);
+`;
+
+export const MobileCategoriesList = styled.ul`
+  display: flex;
+  flex-direction: column;
 `;

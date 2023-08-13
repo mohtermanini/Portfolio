@@ -21,11 +21,18 @@ const MainImageContainer = styled.div`
   border-radius: 10px;
   padding: 10px;
   width: 445px;
+  margin: auto;
   @media (max-width: ${breakpoints.desktop}) {
     width: 400px;
   }
   @media (max-width: ${breakpoints.laptop}) {
     width: 350px;
+  }
+  @media (max-width: 489px) {
+    width: 250px;
+  }
+  @media (max-width: 400px) {
+    width: 200px;
   }
 `;
 
@@ -40,6 +47,12 @@ const ThumbnailsCarousel = styled.div`
   }
   @media (max-width: ${breakpoints.laptop}) {
     width: 350px;
+  }
+  @media (max-width: 489px) {
+    width: 250px;
+  }
+  @media (max-width: 400px) {
+    width: 200px;
   }
   .swiper-button-prev,
   .swiper-button-next {
@@ -65,6 +78,10 @@ const ThumbnailContainer = styled(({ active, ...props }) => <div {...props} />)`
   padding: 10px;
   position: relative;
   overflow: hidden;
+  @media (max-width: 489px) {
+    width: 150px;
+    margin: auto;
+  }
   ${({ active }) => {
     if (active) {
       return css`
@@ -133,7 +150,7 @@ export default function ProjectImages({ images }) {
       <ThumbnailsCarousel>
         <Swiper
           spaceBetween={20}
-          slidesPerView={2}
+          slidesPerView={1}
           modules={[Navigation]}
           navigation
           breakpoints={{
@@ -159,7 +176,7 @@ export default function ProjectImages({ images }) {
                   onClickThumbnail(image);
                 }}
               >
-                <Thumbnail src={image.thumbnail.src} fill />
+                <Thumbnail src={image.thumbnail.src} alt="" fill />
               </ThumbnailContainer>
             </SwiperSlide>
           ))}

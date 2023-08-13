@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useProjects } from "../contexts/ProjectsProvider";
 import { categories } from "../data/projects";
 import ProjectCard from "./ProjectCard";
@@ -78,6 +78,8 @@ export default function ProjectsList() {
   const { selectedCategory } = useProjects();
   const { selectedProject } = useSelectedProject();
   const { showModal, setShowModal } = useModals();
+  const projectDescriptionSectionRef = useRef();
+
   function onClickDetailsButton() {
     setShowModal(true);
   }
@@ -110,13 +112,14 @@ export default function ProjectsList() {
               <ProjectCard
                 title={project.title}
                 mainThumbnail={project.mainThumbnail}
+                projectDescriptionSectionRef={projectDescriptionSectionRef}
               />
             </CSSTransition>
           ))}
       </List>
       <SectionSeparator />
       {selectedProject && (
-        <SelectedProjectDescription>
+        <SelectedProjectDescription ref={projectDescriptionSectionRef}>
           <Title>{selectedProject.title}</Title>
           <Description>{selectedProject.mainDescription}</Description>
           <SelectedProjectDetailsButtonContainer>

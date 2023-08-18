@@ -14,7 +14,6 @@ export const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
         background-image: url(${bgImage.src});
         background-size: auto;
-        background-repeat: repeat-x;
         background-position: 35% 12%;
         background-attachment: fixed;
         color: ${theme.palette.white};

@@ -3,7 +3,7 @@ import { StyledComponentsRegistry } from "@/styles/StyledComponentsRegistry";
 import "../assets/sass/loader.scss";
 
 export const metadata = {
-  title: "Mohamad Termanini",
+  title: "Portfolio | Mohamad Termanini",
   description: "Portfolio of Mohamad Termanini",
 };
 

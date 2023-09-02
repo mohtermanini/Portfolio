@@ -7,8 +7,45 @@ import sihatiImage from "../../../../public//assets/images/work-experience/6.jpg
 import flyFoodImage from "../../../../public//assets/images/work-experience/7.jpg";
 import yellowPagesImage from "../../../../public//assets/images/work-experience/8.jpg";
 import otherExperienceImage from "../../../../public//assets/images/work-experience/9.jpg";
+import cheilImage from "../../../../public//assets/images/work-experience/10.jpg";
 
 export const experiences = [
+  {
+    workType: "Full Time Job",
+    title: "Cheil Middle East & Africa",
+    position: "Web Developer",
+    description: (
+      <>
+        <p className="company-brief">
+          Cheil is a marketing company under the Samsung Group that offers
+          advertising, digital marketing, etc.
+        </p>
+        <ul>
+          <li>
+            Maintained and enhanced an administrative dashboard crucial for
+            generatingextensive reports.
+          </li>
+          <li>
+            Enhanced user satisfaction by optimizing the dashboard&apos;s speed
+            and efficiencythrough the implementation of web techniques such as
+            caching, bundling, andseamless integration of JavaScript template
+            engines for performance optimization.
+          </li>
+        </ul>
+      </>
+    ),
+    technicalStack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "React",
+      "Next.js",
+      "PHP",
+      "Laravel",
+    ],
+    image: cheilImage,
+  },
   {
     workType: "Full Time Job",
     title: "LeadVy",

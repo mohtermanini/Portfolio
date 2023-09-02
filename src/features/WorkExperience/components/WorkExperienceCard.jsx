@@ -46,6 +46,9 @@ const Description = styled.div`
       color: rgba(255, 255, 255, 0.8);
     }
   }
+  .company-brief {
+    font-style: italic;
+  }
 `;
 
 const WorkType = styled.div`

@@ -85,12 +85,12 @@
 }
 
 .waiting {
-  font: 400 24px/32px Roboto;
+  font: 400 24px/32px var(--font-roboto);
   @media (max-width: breakpoints.$laptop) {
-    font: 400 20px/28px Roboto;
+    font: 400 20px/28px var(--font-roboto);
   }
   @media (max-width: breakpoints.$mobile) {
-    font: 400 17px/24px Roboto;
+    font: 400 17px/24px var(--font-roboto);
   }
 }
 

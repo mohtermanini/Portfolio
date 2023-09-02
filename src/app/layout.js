@@ -1,3 +1,4 @@
+import { Roboto } from "next/font/google";
 import Providers from "@/components/Providers/Providers";
 import { StyledComponentsRegistry } from "@/styles/StyledComponentsRegistry";
 import "../assets/sass/loader.scss";
@@ -7,13 +8,21 @@ export const metadata = {
   description: "Portfolio of Mohamad Termanini",
 };
 
+const roboto = Roboto({
+  weight: ["400", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto",
+});
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${roboto.variable}`}>
       <body>
         <div className="initial-loader">
           <div className="dots-wrapper">
-            <span class="dots">
+            <span className="dots">
               <span></span>
               <span></span>
               <span></span>

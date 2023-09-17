@@ -12,14 +12,10 @@ import cheilImage from "../../../../public//assets/images/work-experience/10.jpg
 export const experiences = [
   {
     workType: "Full Time Job",
-    title: "Cheil Middle East & Africa",
+    title: "Cheil Middle East & Africa, part of the Samsung Family",
     position: "Web Developer",
     description: (
       <>
-        <p className="company-brief">
-          Cheil is a marketing company under the Samsung Group that offers
-          advertising, digital marketing, etc.
-        </p>
         <ul>
           <li>
             Maintained and enhanced an administrative dashboard crucial for

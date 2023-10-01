@@ -18,7 +18,7 @@ export default function Brief() {
       <AboutDescription>
         <AboutList>
           <AboutListItem>
-            I am a Full-stack web developer with 2+ years of experience in web
+            I am a Full-stack web developer with 2.5+ years of experience in web
             development.
           </AboutListItem>
           <AboutListItem>

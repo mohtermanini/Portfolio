@@ -12,7 +12,7 @@ import cheilImage from "../../../../public//assets/images/work-experience/10.jpg
 export const experiences = [
   {
     workType: "Full Time Job",
-    title: "Cheil Middle East & Africa, part of the Samsung Family",
+    title: "Samsung Cheil Middle East & Africa",
     position: "Web Developer",
     description: (
       <>

@@ -19,12 +19,12 @@ export const experiences = [
         <ul>
           <li>
             Maintained and enhanced an administrative dashboard crucial for
-            generatingextensive reports.
+            generating extensive reports.
           </li>
           <li>
             Enhanced user satisfaction by optimizing the dashboard&apos;s speed
-            and efficiencythrough the implementation of web techniques such as
-            caching, bundling, andseamless integration of JavaScript template
+            and efficiency through the implementation of web techniques such as
+            caching, bundling, and seamless integration of JavaScript template
             engines for performance optimization.
           </li>
         </ul>

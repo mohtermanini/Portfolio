@@ -24,7 +24,7 @@ export default function Projects() {
   return (
     <>
       <SectionTitle backgroundColor="rgba(32, 32, 95, 0.7)">
-        Projects
+        Some Old Projects
       </SectionTitle>
       <ProjectsBody>
         <BackgroundFill color="rgba(86, 86, 179, 0.7)" />

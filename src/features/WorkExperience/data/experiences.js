@@ -144,7 +144,7 @@ export const experiences = [
   },
 
   {
-    workType: "Personal Project",
+    workType: "Personal Project (side showcase skills project, not a company)",
     title: "Battleship",
     position: "Front End Developer",
     description: (
@@ -179,7 +179,7 @@ export const experiences = [
   },
 
   {
-    workType: "Personal Project",
+    workType: "Personal Project (side showcase skills project, not a company)",
     title: "Memory Card",
     position: "Front End Developer",
     description: (
@@ -214,7 +214,7 @@ export const experiences = [
   },
 
   {
-    workType: "Personal Project",
+    workType: "Personal Project (side showcase skills project, not a company)",
     title: "Sihati",
     position: "Full Stack Developer",
     description: (
@@ -251,7 +251,7 @@ export const experiences = [
   },
 
   {
-    workType: "Personal Project",
+    workType: "Personal Project (side showcase skills project, not a company)",
     title: "FlyFood",
     position: "UI Designer",
     description: (

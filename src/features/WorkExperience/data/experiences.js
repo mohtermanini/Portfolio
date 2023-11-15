@@ -13,6 +13,7 @@ export const experiences = [
   {
     workType: "Full Time Job",
     title: "Samsung Cheil Middle East & Africa",
+    joinPeriod: "Aug 2023 - Present",
     position: "Web Developer",
     description: (
       <>
@@ -46,6 +47,7 @@ export const experiences = [
     workType: "Full Time Job",
     title: "LeadVy",
     position: "Front End Developer",
+    joinPeriod: "Jul 2023 - Aug 2023",
     description: (
       <ul>
         <li>
@@ -77,39 +79,9 @@ export const experiences = [
   },
   {
     workType: "Freelance",
-    title: "Namaa Charitable Development Association",
-    position: "Full Stack Developer",
-    description: (
-      <ul>
-        <li>
-          Analyzed a library management system which includes multiple
-          subscription and books borrowing systems and built a user-friendly
-          control panel for it.
-        </li>
-        <li>
-          Transformed the system by migrating it from an Excel-based to a
-          user-friendly website, significantly boosting and facilitating the
-          management of the library and minimizing errors. The new system
-          greatly enhanced accessibility and ease of use for library staff and
-          users, resulting in increased satisfaction and productivity.
-        </li>
-      </ul>
-    ),
-    technicalStack: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "JavaScript",
-      "jQuery",
-      "Laravel",
-    ],
-    image: NamaaImage,
-  },
-
-  {
-    workType: "Freelance",
     title: "EasyBook",
     position: "Web Designer",
+    joinPeriod: "Aug 2022 - Nov 2022",
     description: (
       <ul>
         <li>
@@ -142,7 +114,37 @@ export const experiences = [
     technicalStack: ["Adobe XD"],
     image: EasyBookImage,
   },
-
+  {
+    workType: "Freelance",
+    title: "Namaa Charitable Development Association",
+    position: "Full Stack Developer",
+    joinPeriod: "Feb 2021 - April 2021",
+    description: (
+      <ul>
+        <li>
+          Analyzed a library management system which includes multiple
+          subscription and books borrowing systems and built a user-friendly
+          control panel for it.
+        </li>
+        <li>
+          Transformed the system by migrating it from an Excel-based to a
+          user-friendly website, significantly boosting and facilitating the
+          management of the library and minimizing errors. The new system
+          greatly enhanced accessibility and ease of use for library staff and
+          users, resulting in increased satisfaction and productivity.
+        </li>
+      </ul>
+    ),
+    technicalStack: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "jQuery",
+      "Laravel",
+    ],
+    image: NamaaImage,
+  },
   {
     workType: "Personal Project (side showcase skills project, not a company)",
     title: "Battleship",

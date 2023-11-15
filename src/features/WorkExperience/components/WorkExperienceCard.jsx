@@ -5,7 +5,9 @@ import Image from "next/image";
 import React from "react";
 import { styled } from "styled-components";
 
-const StyledWorkExperienceCard = styled(({evenChild, ...props}) => <div {...props}/>)`
+const StyledWorkExperienceCard = styled(({ evenChild, ...props }) => (
+  <div {...props} />
+))`
   display: flex;
   flex-direction: ${({ evenChild }) => (evenChild ? "row-reverse" : "row")};
 `;
@@ -75,6 +77,7 @@ const Title = styled.div`
     font: ${theme.typography.title.xs.regular};
   }
 `;
+
 const Position = styled.div`
   font: ${theme.typography.title.xl.bold};
   @media (max-width: ${breakpoints.desktop}) {
@@ -87,6 +90,21 @@ const Position = styled.div`
     font: ${theme.typography.title.sm.bold};
   }
 `;
+
+const JoinPeriod = styled.div`
+  font: ${theme.typography.label.xxl.regular};
+  color: #eeeeee;
+  @media (max-width: ${breakpoints.desktop}) {
+    font: ${theme.typography.label.lg.regular};
+  }
+  @media (max-width: ${breakpoints.tablet}) {
+    font: ${theme.typography.label.lg.regular};
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    font: ${theme.typography.label.md.regular};
+  }
+`;
+
 const ImageContainer = styled.div`
   width: 50%;
   position: relative;
@@ -134,6 +152,7 @@ export default function WorkExperienceCard({
   evenChild,
   workType,
   title,
+  joinPeriod,
   position,
   description,
   image,
@@ -145,6 +164,7 @@ export default function WorkExperienceCard({
       <Body evenChild={evenChild}>
         <WorkType>{workType}</WorkType>
         <Title>{title}</Title>
+        {joinPeriod && <JoinPeriod>{joinPeriod}</JoinPeriod>}
         <Position>{position}</Position>
         <DescriptionContainer>
           <Description>{description}</Description>
@@ -174,7 +194,7 @@ export default function WorkExperienceCard({
         )}
       </Body>
       <ImageContainer>
-        <SideImage src={image} alt="" fill/>
+        <SideImage src={image} alt="" fill />
       </ImageContainer>
     </StyledWorkExperienceCard>
   );

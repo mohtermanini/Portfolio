@@ -19,14 +19,23 @@ export const experiences = [
       <>
         <ul>
           <li>
-            Maintained and enhanced an administrative dashboard crucial for
-            generating extensive reports.
+            Led the frontend and backend development of a dashboard used by retailer admins for generating
+            extensive reports, along with a mobile application utilized by promoters, serving retailers across
+            multiple countries.
           </li>
           <li>
-            Enhanced user satisfaction by optimizing the dashboard&apos;s speed
-            and efficiency through the implementation of web techniques such as
-            caching, bundling, and seamless integration of JavaScript template
-            engines for performance optimization.
+            Implemented <b>APIs</b> for mobile and web applications in accordance with best practices using <b>Laravel</b>,
+            with a strong emphasis on security, performance, maintainability, scalability, and usability. Applied a
+            modular approach, followed <b>SOLID</b> principles, and incorporated <b>Test-Driven Development (TDD)</b> using <b>PHPUnit</b> for a comprehensive and robust development process.
+          </li>
+          <li>
+            Developed the frontend using <b>Bootstrap</b> and <b>React/Next.js</b>, with a focus on ensuring <b>responsiveness</b>,
+            constructing reusable components and applying industry-best practices, including effective caching
+            strategies for optimal performance.
+          </li>
+          <li>
+            Optimized a legacy website by implementing web techniques, including caching, bundling, and
+            seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
         </ul>
       </>
@@ -51,26 +60,15 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          Led the development of the front-end for a real estate website using
-          Next.js, resulting in a modern and user-friendly interface for
-          property listings and search functionality.
+          Developed a modern and user-friendly real estate website front-end using <b>React/Next.js</b>, complemented
+          by a user-friendly admin panel for seamless property management, data editing, and analytics tracking.
         </li>
         <li>
-          Collaborated closely with the backend team to define API requirements
-          and ensured seamless integration for data retrieval and management.
+          Collaborated closely with the backend team to define API requirements and ensured seamless integration for data retrieval and management.
         </li>
         <li>
-          Implemented a user-friendly admin panel using Next.js, enabling
-          seamless property management, data editing, and analytics tracking for
-          the internal team.
-        </li>
-        <li>
-          Developed responsive designs and ensured cross-browser compatibility
-          for a consistent appearance across various devices.
-        </li>
-        <li>
-          Communicated effectively with the stakeholders to gather feedback and
-          provide progress updates.
+          Ensured responsive designs and <b>cross-browser compatibility</b> for a consistent appearance across various
+          devices.
         </li>
       </ul>
     ),
@@ -85,23 +83,15 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          Designed user interfaces for a large hotels and properties booking
-          website.
+          Designed user interfaces using <b>Adobe XD</b> for a large hotels and properties booking website.
         </li>
         <li>
-          Created over 50 unique and highly intuitive user interfaces with a
-          total of more than 80 interfaces taking into account the best user
-          experience possible.
+          Created <b>+50</b> unique and highly intuitive user interfaces with a total of <b>+80</b> interfaces taking into
+          account the best <b>UI/UX design</b> experience possible.
         </li>
         <li>
-          Built over +150 reusable components, resulting in streamlined design
-          and development processes. This approach enabled faster turnaround
-          times and consistent design elements across the project.
-        </li>
-        <li>
-          Achieved 100% client satisfaction by working closely with clients to
-          understand their design needs and preferences, and providing regular
-          updates and iterations throughout the design process.
+          Built over <b>+150 reusable components</b>, resulting in streamlined design and development processes. This
+          approach enabled faster turnaround times and consistent design elements across the project.
         </li>
       </ul>
     ),
@@ -122,16 +112,12 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          Analyzed a library management system which includes multiple
-          subscription and books borrowing systems and built a user-friendly
-          control panel for it.
+          Upgraded a library management system from Excel -based to a user-friendly website, improving library
+          management, reducing errors, and enhancing accessibility for staff and users.
         </li>
         <li>
-          Transformed the system by migrating it from an Excel-based to a
-          user-friendly website, significantly boosting and facilitating the
-          management of the library and minimizing errors. The new system
-          greatly enhanced accessibility and ease of use for library staff and
-          users, resulting in increased satisfaction and productivity.
+          Developed the backend system and <b>Restful APIs</b> using <b>Laravel</b> and <b>MySQL</b>, incorporating advanced
+          features such as subscription management and book borrowing systems.
         </li>
       </ul>
     ),
@@ -153,9 +139,8 @@ export const experiences = [
       <ul>
         <li>Created a multiplayer war-themed board game</li>
         <li>
-          Designed visually appealing user interfaces using Adobe XD and
-          transformed them into actual interfaces using HTML, CSS, and
-          JavaScript.
+          Designed visually appealing user interfaces using <b>Adobe XD</b> and
+          transformed them into actual interfaces using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
         </li>
         <li>Developed a smart and challenging PC player to play against.</li>
         <li>
@@ -163,7 +148,7 @@ export const experiences = [
           advanced algorithmic approaches such as Dynamic Programming.
         </li>
         <li>
-          Wrote +50 tests using testing frameworks such as Jest to ensure the
+          Wrote <b>+50 tests</b> using testing frameworks such as <b>Jest</b> to ensure the
           quality and reliability of the game code. Conducted extensive
           debugging and troubleshooting to identify and resolve issues in the
           game logic and functionality.
@@ -187,8 +172,7 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          Developed a challenging and fun game that tests the memory using
-          React, employing modern web development practices such as
+          Developed a challenging and fun game that tests the memory using <b>React</b>, employing modern web development practices such as
           component-based architecture and state management with Context API.
         </li>
         <li>
@@ -200,7 +184,7 @@ export const experiences = [
           game performance, resulting in smooth and responsive gameplay.
         </li>
         <li>
-          Utilized CSS animations and transitions to enhance the visual appeal
+          Utilized <b>CSS</b> animations and transitions to enhance the visual appeal
           of the game, creating an immersive and enjoyable user experience.
         </li>
       </ul>
@@ -221,7 +205,7 @@ export const experiences = [
     position: "Full Stack Developer",
     description: (
       <ul>
-        <li>Designed and built a medical blog and consultation website.</li>
+        <li>Designed and built a medical blog and consultation website using <b>Larvel</b>.</li>
         <li>
           Implemented an authentication and authorization system for three
           different types of users: members - doctors - admins.
@@ -259,7 +243,7 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          Crafted visually appealing and intuitive user interfaces for three
+          Crafted visually appealing and intuitive user interfaces using <b>Adobe XD</b> for three
           mobile apps (main app - restaurant app - driver app) in a food
           ordering and delivery application.
         </li>
@@ -309,10 +293,9 @@ export const experiences = [
     description: (
       <ul>
         <li>
-          I have a bachelor’s degree in Informatics Engineering, a five years
-          computer science programe.
+          I have a bachelor’s degree in Informatics Engineering, a <b>five years</b> computer science programe.
         </li>
-        <li>I graduated at the top of my class with a GPA of 87%.</li>
+        <li>I graduated at the top of my class with a  <b>GPA</b> of <b>87%</b>.</li>
         <li>
           I solved over 850 problems which involved different algorithms and
           data structures onwebsites like Codeforces, UVa Online Judge, Spoj.

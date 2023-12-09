@@ -36,6 +36,10 @@ export const GlobalStyles = createGlobalStyle`
       color: inherit;
       text-decoration: none;
      }
+
+     b {
+      font-weight: 800;
+     }
 `;
 
 export const Container = styled.div`

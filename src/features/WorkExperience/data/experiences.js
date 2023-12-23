@@ -19,9 +19,11 @@ export const experiences = [
       <>
         <ul>
           <li>
-            Led the frontend and backend development of a dashboard used by retailer admins for generating
-            extensive reports, along with a mobile application utilized by promoters, serving retailers across
-            multiple countries.
+            Developed a comprehensive administrative website tailored for <b>retailers</b>, with a focus on <b>Samsung
+              retailers</b> spanning <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and
+            efficiently <b>managing</b> all stores. The system includes dedicated panels for website <b>managers</b>, and a
+            <b>mobile application</b> specifically designed for <b>field users</b> rather than managers. Additionally, it
+            generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
           </li>
           <li>
             Implemented <b>APIs</b> for mobile and web applications in accordance with best practices using <b>Laravel</b>,
@@ -30,7 +32,7 @@ export const experiences = [
           </li>
           <li>
             Developed the frontend using <b>Bootstrap</b> and <b>React/Next.js</b>, with a focus on ensuring <b>responsiveness</b>,
-            constructing reusable components and applying industry-best practices, including effective caching
+            constructing reusable components and applying industry-best practices, including effective <b>caching</b>
             strategies for optimal performance.
           </li>
           <li>
@@ -67,7 +69,7 @@ export const experiences = [
           Collaborated closely with the backend team to define API requirements and ensured seamless integration for data retrieval and management.
         </li>
         <li>
-          Ensured responsive designs and <b>cross-browser compatibility</b> for a consistent appearance across various
+          Ensured <b>responsive designs</b> and <b>cross-browser compatibility</b> for a consistent appearance across various
           devices.
         </li>
       </ul>
@@ -79,11 +81,10 @@ export const experiences = [
     workType: "Freelance",
     title: "EasyBook",
     position: "Web Designer",
-    joinPeriod: "Aug 2022 - Nov 2022",
     description: (
       <ul>
         <li>
-          Designed user interfaces using <b>Adobe XD</b> for a large hotels and properties booking website.
+          Designed user interfaces using <b>Adobe XD</b> for a large hotels and properties <b>booking website</b>.
         </li>
         <li>
           Created <b>+50</b> unique and highly intuitive user interfaces with a total of <b>+80</b> interfaces taking into
@@ -108,16 +109,19 @@ export const experiences = [
     workType: "Freelance",
     title: "Namaa Charitable Development Association",
     position: "Full Stack Developer",
-    joinPeriod: "Feb 2021 - April 2021",
     description: (
       <ul>
         <li>
-          Upgraded a library management system from Excel -based to a user-friendly website, improving library
+          Upgraded a <b>library management system</b> from Excel -based to a user-friendly website, improving library
           management, reducing errors, and enhancing accessibility for staff and users.
         </li>
         <li>
           Developed the backend system and <b>Restful APIs</b> using <b>Laravel</b> and <b>MySQL</b>, incorporating advanced
           features such as subscription management and book borrowing systems.
+        </li>
+        <li>
+          Employed <b>HTML5</b>, <b>CSS3</b>, <b>SASS</b>, <b>Bootstrap</b>, <b>JavaScript</b> and <b>jQuery</b> to craft a user-friendly
+          control panel for efficiently managing library operations.
         </li>
       </ul>
     ),
@@ -267,7 +271,7 @@ export const experiences = [
     image: flyFoodImage,
   },
   {
-    workType: "University Homework",
+    workType: "University Project",
     title: "Yellow Pages",
     position: "Database Designer",
     description: (
@@ -312,7 +316,7 @@ export const experiences = [
         </li>
         <li>
           I participated in Aleppo Collegiate Programming Contest and got the
-          third place.
+          <b>third</b> place.
         </li>
       </ul>
     ),

@@ -15,7 +15,7 @@ const StyledWorkExperienceCard = styled(({ evenChild, ...props }) => (
 const Body = styled(({ evenChild, ...props }) => <div {...props} />)`
   background-color: ${({ evenChild }) =>
     evenChild ? "rgba(16, 58, 77, 0.7)" : "rgba(28, 96, 124, 0.7)"};
-  width: 50%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -106,7 +106,7 @@ const JoinPeriod = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  width: 50%;
+  width: 25%;
   position: relative;
   &::after {
     content: "";

@@ -170,7 +170,7 @@ export default function Footer() {
               </InfoListItem>
               <InfoListItem>
                 <Icon src={emailIcon} alt="" width={25} height={25} />
-                <InfoText>mohtermanini.job@gmail.com</InfoText>
+                <InfoText><a href="mailto:mohtermanini.job@gmail.com">mohtermanini.job@gmail.com</a></InfoText>
               </InfoListItem>
             </InfoListItems>
           </InfoList>

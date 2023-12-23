@@ -166,11 +166,11 @@ export default function Footer() {
             <InfoListItems>
               <InfoListItem>
                 <Icon src={phoneIcon} alt="" width={25} height={25} />
-                <InfoText>+971 545982007</InfoText>
+                <InfoText href="tel:+971545982007" target="_blank">+971 545982007</InfoText>
               </InfoListItem>
               <InfoListItem>
                 <Icon src={emailIcon} alt="" width={25} height={25} />
-                <InfoText><a href="mailto:mohtermanini.job@gmail.com">mohtermanini.job@gmail.com</a></InfoText>
+                <InfoText><a href="mailto:mohtermanini.job@gmail.com" target="_blank">mohtermanini.job@gmail.com</a></InfoText>
               </InfoListItem>
             </InfoListItems>
           </InfoList>

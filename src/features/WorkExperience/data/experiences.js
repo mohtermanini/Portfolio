@@ -55,10 +55,9 @@ export const experiences = [
     image: cheilImage,
   },
   {
-    workType: "Full Time Job",
-    title: "LeadVy",
+    workType: "Freelance",
+    title: "Real Estate",
     position: "Front End Developer",
-    joinPeriod: "Jul 2023 - Aug 2023",
     description: (
       <ul>
         <li>

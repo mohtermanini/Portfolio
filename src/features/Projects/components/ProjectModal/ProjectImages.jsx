@@ -145,7 +145,9 @@ export default function ProjectImages({ images }) {
     <StyledProjectImages>
       <MainImageContainer>
         {!loadedImages.has(selectedImage.original.src) && <Spinner />}
-        <MainImage src={currentImageSource} alt="" fill />
+        <a href={currentImageSource} target="_blank">
+          <MainImage src={currentImageSource} alt="" fill />
+        </a>
       </MainImageContainer>
       <ThumbnailsCarousel>
         <Swiper
@@ -163,9 +165,9 @@ export default function ProjectImages({ images }) {
               slidesPerView: 3,
             },
             [breakpoints.desktop.substring(0, breakpoints.desktop.length - 2)]:
-              {
-                slidesPerView: 4,
-              },
+            {
+              slidesPerView: 4,
+            },
           }}
         >
           {images.map((image) => (

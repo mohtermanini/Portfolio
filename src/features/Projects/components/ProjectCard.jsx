@@ -77,7 +77,7 @@ export default function ProjectCard({
       onClick={onClickProjectCard}
     >
       <ImageContainer>
-        <Thumbnail src={mainThumbnail} alt="" fill />
+        <Thumbnail rel="preload" src={mainThumbnail} alt="" fill />
       </ImageContainer>
       <Title>{title}</Title>
     </StyledProjectCard>

@@ -164,7 +164,7 @@ export const categories = [
           "Laravel",
           "SQL",
         ],
-        link: "https://sihatiteb.000webhostapp.com",
+        // link: "https://sihatiteb.000webhostapp.com",
         mainThumbnail: sihatiMainThumbnail,
         images: [
           {
@@ -225,7 +225,7 @@ export const categories = [
           "PHP",
           "Laravel",
         ],
-        link: "https://namaalibrary.000webhostapp.com",
+        // link: "https://namaalibrary.000webhostapp.com",
         mainThumbnail: namaaLibraryMainThumbnail,
         images: [
           {

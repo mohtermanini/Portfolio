@@ -62,6 +62,16 @@ export const Address = styled.p`
   }
 `;
 
+const Description = styled.p`
+    font: ${theme.typography.body.sm.regular};
+    @media (max-width: ${breakpoints.desktop}) {
+      font: ${theme.typography.body.sm.regular};
+    }
+    @media (max-width: ${breakpoints.mobile}) {
+      font: ${theme.typography.body.xs.regular};
+    }
+`;
+
 export default function Hero() {
   return (
     <StyledHero>
@@ -72,6 +82,13 @@ export default function Hero() {
           <HiLocationMarker />
           Located in Dubai, UAE
         </Address>
+        <hr className="hr" />
+        <Description>
+          Graduated at <b>top</b> of my class with excellence, currently employed at Cheil MEA, part of the prestigious <b>Samsung Group</b>. Participated and ranked in the <b>top 3</b> in collegiate programming contests, having solved  <b>+1000</b> programming problems <a href="https://www.stopstalk.com/user/profile/Mohamad_Termanini" target="_blank"><u>(Stopstalk)</u></a>. With <b>+3.5</b> years of experience as a <b>Full Stack Web
+            Developer</b>, I’ve contributed to projects spanning multiple countries, playing pivotal roles as a key member or
+          team leader. Proficient in trending frontend frameworks such as <b>Next.js</b> and proficient in backend
+          development using <b>PHP Laravel</b>, I have a track record of delivering efficient and high-quality solutions.
+        </Description>
       </HeroContainer>
     </StyledHero>
   );

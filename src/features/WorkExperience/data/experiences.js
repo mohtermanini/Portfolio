@@ -20,9 +20,8 @@ export const experiences = [
         <ul>
           <li>
             Developed a comprehensive administrative website tailored for <b>retailers</b>, with a focus on <b>Samsung
-              retailers</b> spanning <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and
-            efficiently <b>managing</b> all stores. The system includes dedicated panels for website <b>managers</b>, and a
-            <b>mobile application</b> specifically designed for <b>field users</b> rather than managers. Additionally, it
+            retailers</b> spanning <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and
+            efficiently <b>managing</b> all stores. The system includes dedicated panels for website <b>managers</b>, and a <b>mobile application</b> specifically designed for <b>field users</b> rather than managers. Additionally, it
             generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
           </li>
           <li>
@@ -39,6 +38,15 @@ export const experiences = [
             Optimized a legacy website by implementing web techniques, including caching, bundling, and
             seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
+          <li>
+            Played a key role in developing a <b>survey platform</b>. Implemented personalized summary and raw data
+            reports, unique question formats, and introduced features for managing the surveyors and stores where
+            surveys are conducted. Simplified data upload using Excel files for faster and easier use.
+          </li>
+          <li>
+            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b> and <b>RTK Query</b>
+            along side <b>React Bootstrap</b> for the survey platform.
+          </li>
         </ul>
       </>
     ),
@@ -48,6 +56,7 @@ export const experiences = [
       "JavaScript",
       "jQuery",
       "React",
+      "Redux",
       "Next.js",
       "PHP",
       "Laravel",
@@ -222,10 +231,7 @@ export const experiences = [
       </ul>
     ),
     urls: [
-      {
-        name: "Demo Website",
-        link: "https://sihatiteb.000webhostapp.com",
-      },
+      
     ],
     technicalStack: [
       "HTML",
@@ -298,9 +304,9 @@ export const experiences = [
         <li>
           I have a bachelor’s degree in Informatics Engineering, a <b>five years</b> computer science programe.
         </li>
-        <li>I graduated at the top of my class with a  <b>GPA</b> of <b>87%</b>.</li>
+        <li>I graduated at the <b>top</b> of my class with a <b>GPA</b> of <b>87%</b>.</li>
         <li>
-          I solved over 850 problems which involved different algorithms and
+          I solved <b>+1000</b> problems which involved different algorithms and
           data structures onwebsites like Codeforces, UVa Online Judge, Spoj.
           <p className="stoptalk-profile">
             - My profile on{" "}
@@ -314,8 +320,7 @@ export const experiences = [
           </p>
         </li>
         <li>
-          I participated in Aleppo Collegiate Programming Contest and got the
-          <b>third</b> place.
+          I participated in Aleppo Collegiate Programming Contest and got the <b>third</b> place.
         </li>
       </ul>
     ),

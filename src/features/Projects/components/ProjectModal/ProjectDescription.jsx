@@ -103,16 +103,20 @@ export default function ProjectDescription({ title, sections, skills, link }) {
             </SkillsList>
           </SkillsSection>
         )}
-        <SeparatorContainer>
-          <SectionSeparator />
-        </SeparatorContainer>
-        <SiteLinkContainer>
-          <a target="_blank" rel="noreferrer" href={link}>
-            <VisitSiteButton>
-              Visit Site <HiOutlineExternalLink />
-            </VisitSiteButton>
-          </a>
-        </SiteLinkContainer>
+        {link && (
+          <>
+            <SeparatorContainer>
+              <SectionSeparator />
+            </SeparatorContainer>
+            <SiteLinkContainer>
+              <a target="_blank" rel="noreferrer" href={link}>
+                <VisitSiteButton>
+                  Visit Site <HiOutlineExternalLink />
+                </VisitSiteButton>
+              </a>
+            </SiteLinkContainer>
+          </>
+        )}
       </Sections>
     </StyledProjectDescription>
   );

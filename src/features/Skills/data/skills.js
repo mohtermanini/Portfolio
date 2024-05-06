@@ -10,6 +10,8 @@ import bootstrapIcon from "../../../../public/assets/images/skills/bootstrap.svg
 import javascriptIcon from "../../../../public/assets/images/skills/javascript.svg";
 import jqueryIcon from "../../../../public/assets/images/skills/jquery.svg";
 import reactIcon from "../../../../public/assets/images/skills/react.svg";
+import reduxIcon from "../../../../public/assets/images/skills/redux.svg";
+import rtkQuery from "../../../../public/assets/images/skills/redux.svg";
 import nextjsIcon from "../../../../public/assets/images/skills/nextjs.svg";
 
 import phpIcon from "../../../../public/assets/images/skills/php.svg";
@@ -36,6 +38,7 @@ export const skillsCategories = [
       "JavaScript",
       "jQuery",
       "React",
+      "Redux",
       "Next.js",
     ],
   },
@@ -64,6 +67,8 @@ export const skillsIcons = {
   JavaScript: javascriptIcon,
   jQuery: jqueryIcon,
   React: reactIcon,
+  Redux: reduxIcon,
+  "RTK Query": reduxIcon,
   "Next.js": nextjsIcon,
   PHP: phpIcon,
   Laravel: laravelIcon,

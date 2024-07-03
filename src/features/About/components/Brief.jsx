@@ -23,7 +23,7 @@ export default function Brief() {
           </AboutListItem>
           <AboutListItem>
             I have a strong background in designing and developing web
-            applications using Figma, React and Laravel.
+            applications using Figma, React/Next.js with TypeScript and Laravel.
           </AboutListItem>
         </AboutList>
         <AboutLink

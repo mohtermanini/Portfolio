@@ -28,10 +28,10 @@ const Body = styled(({ evenChild, ...props }) => <div {...props} />)`
 const DescriptionContainer = styled.div`
   font: ${theme.typography.body.md.regular};
   @media (max-width: ${breakpoints.desktop}) {
-    font: ${theme.typography.body.sm.regular};
+    font: ${theme.typography.body.md.regular};
   }
   @media (max-width: ${breakpoints.mobile}) {
-    font: ${theme.typography.body.xs.regular};
+    font: ${theme.typography.body.sm.regular};
   }
 `;
 const Description = styled.div`
@@ -95,7 +95,7 @@ const JoinPeriod = styled.div`
   font: ${theme.typography.label.xxl.regular};
   color: #eeeeee;
   @media (max-width: ${breakpoints.desktop}) {
-    font: ${theme.typography.label.lg.regular};
+    font: ${theme.typography.label.xxl.regular};
   }
   @media (max-width: ${breakpoints.tablet}) {
     font: ${theme.typography.label.lg.regular};

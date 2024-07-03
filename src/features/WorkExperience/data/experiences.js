@@ -20,7 +20,7 @@ export const experiences = [
         <ul>
           <li>
             Developed a comprehensive administrative website tailored for <b>retailers</b>, with a focus on <b>Samsung
-            retailers</b> spanning <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and
+              retailers</b> spanning <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and
             efficiently <b>managing</b> all stores. The system includes dedicated panels for website <b>managers</b>, and a <b>mobile application</b> specifically designed for <b>field users</b> rather than managers. Additionally, it
             generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
           </li>
@@ -34,18 +34,19 @@ export const experiences = [
             constructing reusable components and applying industry-best practices, including effective <b>caching</b>
             strategies for optimal performance.
           </li>
+          <hr />
           <li>
             Optimized a legacy website by implementing web techniques, including caching, bundling, and
             seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
+          <hr />
           <li>
             Played a key role in developing a <b>survey platform</b>. Implemented personalized summary and raw data
             reports, unique question formats, and introduced features for managing the surveyors and stores where
             surveys are conducted. Simplified data upload using Excel files for faster and easier use.
           </li>
           <li>
-            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b> and <b>RTK Query</b>
-            along side <b>React Bootstrap</b> for the survey platform.
+            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b>, <b>RTK Query</b> and <b>TypeScript</b> along side <b>React Bootstrap</b> for the survey platform.
           </li>
         </ul>
       </>
@@ -54,6 +55,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
+      "TypeScript",
       "jQuery",
       "React",
       "Redux",
@@ -231,7 +233,7 @@ export const experiences = [
       </ul>
     ),
     urls: [
-      
+
     ],
     technicalStack: [
       "HTML",

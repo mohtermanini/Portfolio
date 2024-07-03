@@ -36,7 +36,7 @@ const StyledSkillLabel = styled.div`
 `;
 
 const Title = styled.p`
-  font: ${theme.typography.label.lg.regular};
+  font: ${theme.typography.label.xl.regular};
   @media (max-width: ${breakpoints.mobile}) {
     font: ${theme.typography.label.md.regular};
   }

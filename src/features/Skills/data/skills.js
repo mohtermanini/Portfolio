@@ -25,6 +25,7 @@ import figmaIcon from "../../../../public/assets/images/skills/figma.svg";
 import gitIcon from "../../../../public/assets/images/skills/git.svg";
 import problemSolvingIcon from "../../../../public/assets/images/skills/problem-solving.svg";
 import javaIcon from "../../../../public/assets/images/skills/java.svg";
+import typscriptIcon from "../../../../public/assets/images/skills/typescript.svg";
 
 export const skillsCategories = [
   {
@@ -36,6 +37,7 @@ export const skillsCategories = [
       "Bootstrap",
       "SASS",
       "JavaScript",
+      "TypeScript",
       "jQuery",
       "React",
       "Redux",
@@ -65,6 +67,7 @@ export const skillsIcons = {
   Bootstrap: bootstrapIcon,
   SASS: sassIcon,
   JavaScript: javascriptIcon,
+  TypeScript: typscriptIcon,
   jQuery: jqueryIcon,
   React: reactIcon,
   Redux: reduxIcon,

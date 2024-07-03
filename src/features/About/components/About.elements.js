@@ -16,7 +16,7 @@ export const AboutSubTitle = styled.h3`
 export const AboutDescription = styled.div`
   font: ${theme.typography.body.md.regular};
   @media (max-width: ${breakpoints.laptop}) {
-    font: ${theme.typography.body.sm.regular};
+    font: ${theme.typography.body.md.regular};
   }
   @media (max-width: ${breakpoints.mobile}) {
     font: ${theme.typography.body.xs.regular};

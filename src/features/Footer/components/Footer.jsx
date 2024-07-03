@@ -166,7 +166,7 @@ export default function Footer() {
             <InfoListItems>
               <InfoListItem>
                 <Icon src={phoneIcon} alt="" width={25} height={25} />
-                <InfoText href="tel:+971545982007" target="_blank">+971 545982007</InfoText>
+                <InfoText><a href="tel:+971545982007" target="_blank">+971 545982007</a></InfoText>
               </InfoListItem>
               <InfoListItem>
                 <Icon src={emailIcon} alt="" width={25} height={25} />

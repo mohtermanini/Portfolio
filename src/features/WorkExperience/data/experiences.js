@@ -48,6 +48,9 @@ export const experiences = [
           <li>
             Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b>, <b>RTK Query</b> and <b>TypeScript</b> along side <b>React Bootstrap</b> for the survey platform.
           </li>
+          <li>
+            Implemented <b>Agile</b> methodologies and conducted <b>Scrum</b> meetings throughout the development of the survey platform.
+          </li>
         </ul>
       </>
     ),

@@ -1,0 +1,57 @@
+[33ma12d23f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Modify CV
+[33m47f5aff[m Modify CV
+[33m4487009[m Work Experience Change
+[33me7b6ca9[m Changes
+[33me9bb88a[m Images Enhancements
+[33me222154[m Add Summary + Fixes
+[33mc7b5be1[m typo fix
+[33mb5ff985[m Update Experiences Periods
+[33m05e092f[m Modfy Email in Footer
+[33m36f17b2[m Modfy Email in Footer
+[33mb1085d0[m Modify Experience
+[33m36fb5cf[m Modify Experience Content
+[33md7f3e50[m Add Dates to Work Experience
+[33me3309bf[m Modify Personal Project Title
+[33md4ee101[m Modify Projects Title + Year of Experience
+[33md2ab6b6[m Fix Typos
+[33m4bd2ff6[m Change years of experience
+[33m3f7329a[m Modify Cheil Company Name
+[33m17db1a6[m Modify Cheil Title
+[33m86b2d43[m Add Cheil Experience
+[33m569a542[m Add Font Support Using next/font/google
+[33m6135ecc[m Change Meta Title
+[33m126a8b8[m Fix Background
+[33mebe233d[m Add Google Owership Verification
+[33m79e3e8b[m Add Credits
+[33mc566da3[m UI Enhancements
+[33mb6b99f3[m Add Document Inital Loader
+[33ma27f2ef[m Add Workflow
+[33m19c65c7[m Add Slider
+[33mc239347[m Change Images Order
+[33m1f16b4b[m Update Readme
+[33m47f5060[m Change Image
+[33m77570fe[m Remove Images Loader
+[33maddc340[m Remove .src for Images
+[33m24efa5b[m Update Config
+[33m643c265[m Modify Config
+[33m12936bf[m Move Images to Public Folder
+[33m75af209[m Use next/img Instead of img Tag
+[33m5c05191[m Enhancements
+[33m6fe5b25[m Move Folders to their corresponding feature
+[33m890b183[m Update Readme
+[33m224407e[m Use Static Export
+[33mf5bf125[m Intall Sharp Package
+[33mcb0c81c[m Bug Fixes + UI Enhancments
+[33m55f9e51[m Implement Footer
+[33mdee94b8[m Implement About Section
+[33m61170fc[m Implement Skills Section
+[33m65e2217[m Implement Work Experience Section
+[33maa17b92[m Implment Projects Section
+[33ma8330ac[m Modify Values
+[33mdd1ce75[m Implement Hero
+[33mcc699ed[m Add Assets
+[33m125331d[m Delete Unnecessary CSS Module
+[33m35102f3[m Add Theme + Breakpoints
+[33m9cbbeed[m Add Meta + Styled Components Registry
+[33m3cacd82[m Change Favicon
+[33m750c7bf[m Initial commit from Create Next App

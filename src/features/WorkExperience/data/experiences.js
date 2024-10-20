@@ -242,24 +242,6 @@ export const experiences = [
     image: flyFoodImage,
   },
   {
-    workType: "University Project",
-    title: "Yellow Pages",
-    position: "Database Designer",
-    description: (
-      <ul>
-        <li>Designed the ERD for an ads application with many different features.</li>
-      </ul>
-    ),
-    urls: [
-      {
-        name: "ERD",
-        link: "https://bit.ly/3FT4wuV",
-      },
-    ],
-    technicalStack: ["System Design", "Database Design"],
-    image: yellowPagesImage,
-  },
-  {
     workType: null,
     title: null,
     position: "Not Enough for You?",

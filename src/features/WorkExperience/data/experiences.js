@@ -21,23 +21,23 @@ export const experiences = [
           <li>
             Developed a comprehensive administrative website tailored for <b>retailers</b>, with a focus on <b>Samsung retailers</b> spanning{" "}
             <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and efficiently managing all stores. The system
-            includes dedicated panels for website <b>managers</b>, and a <b>mobile application</b> specifically designed for <b>field users</b> rather
-            than managers. Additionally, it generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
+            includes dedicated panels for website <b>managers</b>, and a <b>mobile application</b> specifically designed for field users rather than
+            managers. Additionally, it generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
           </li>
           <li>
-            Implemented <b>APIs</b> for mobile and web applications in accordance with best practices using <b>Laravel</b>, with a strong emphasis on
-            security, performance, maintainability, scalability, and usability. Applied a modular approach, followed <b>SOLID</b> principles, and
-            incorporated <b>Test-Driven Development (TDD)</b> using <b>PHPUnit</b> for a comprehensive and robust development process.
+            Implemented <b>APIs</b> for mobile and web applications in accordance with best practices using <b>Laravel</b>, with a strong emphasis on{" "}
+            <b>security</b>, <b>performance</b>, maintainability, scalability, and usability. Applied a modular approach, followed <b>SOLID</b>{" "}
+            principles, and incorporated <b>Test-Driven Development (TDD)</b> using <b>PHPUnit</b> for a comprehensive and robust development process.
           </li>
           <li>
             Developed the frontend using <b>Bootstrap</b> and <b>React/Next.js</b>, with a focus on ensuring <b>responsiveness</b>, constructing{" "}
-            <b>reusable components</b>, and applying industry-best practices, including effective <b>caching</b> strategies to optimize frontend
+            <b>reusable components</b> and applying industry-best practices, including effective <b>caching</b> strategies to <b>optimize</b> frontend
             performance for speed and responsiveness.
           </li>
           <hr />
           <li>
-            Optimized a legacy website by implementing web techniques, including <b>caching</b>, <b>bundling</b>, and seamlessly integrating{" "}
-            <b>JavaScript template engines</b> to enhance performance.
+            <b>Optimized</b> a legacy website by implementing web techniques, including <b>caching</b>, <b>bundling</b>, <b>lazy loading</b> and
+            seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
           <hr />
           <li>
@@ -46,9 +46,9 @@ export const experiences = [
             faster and easier use.
           </li>
           <li>
-            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b> state management library, <b>RTK Query</b>, and{" "}
+            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b> state management library, <b>RTK Query</b> and{" "}
             <b>TypeScript</b> alongside <b>React Bootstrap</b> for the survey platform, designing and implementing complex UI components to handle
-            dynamic interactions and enhance user experience.
+            dynamic interactions and enhance <b>user experience</b>.
           </li>
           <li>
             Implemented <b>Agile</b> methodologies and conducted <b>Scrum</b> meetings throughout the development of the survey platform.
@@ -76,10 +76,11 @@ export const experiences = [
           for seamless property management, data editing, and analytics tracking.
         </li>
         <li>
-          Collaborated closely with the backend team to define API requirements and ensured seamless integration for data retrieval and management.
+          <b>Collaborated</b> closely with the backend team to define <b>API</b> requirements and ensured seamless <b>integration</b> for data
+          retrieval and management.
         </li>
         <li>
-          Ensured <b>responsive designs</b> and <b>cross-browser compatibility</b> for a consistent appearance across various devices.
+          Ensured <b>responsive designs</b> and <b>cross-browser compatibility</b> for a consistent appearance <b>across various devices</b>.
         </li>
       </ul>
     ),

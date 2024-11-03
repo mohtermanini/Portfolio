@@ -19,10 +19,10 @@ export const experiences = [
       <>
         <ul>
           <li>
-            Developed a comprehensive administrative website tailored for <b>retailers</b>, with a focus on <b>Samsung retailers</b> spanning{" "}
-            <b>multiple countries</b>. This platform facilitates monitoring <b>market activities</b> and efficiently managing all stores. The system
-            includes dedicated panels for website <b>managers</b>, and a <b>mobile application</b> specifically designed for field users rather than
-            managers. Additionally, it generates detailed <b>reports</b> essential for data analysts to extract valuable insights.
+            Developed a <b>multi-country</b> administrative platform for <b>Samsung</b> retailers, featuring a mobile app for data collection and an
+            admin website for efficient management. The mobile app allows field users—like promoters and visual merchandisers—to input data, while the
+            admin site enables managers to monitor activities and oversee stores effectively. The system generates <b>detailed reports</b>, empowering{" "}
+            <b>data analysts</b> to extract valuable insights.
           </li>
           <li>
             Implemented <b>APIs</b> for mobile and web applications in accordance with best practices using <b>Laravel</b>, with a strong emphasis on{" "}
@@ -34,30 +34,32 @@ export const experiences = [
             <b>reusable components</b> and applying industry-best practices, including effective <b>caching</b> strategies to <b>optimize</b> frontend
             performance for speed and responsiveness.
           </li>
-          <hr />
           <li>
             <b>Optimized</b> a legacy website by implementing web techniques, including <b>caching</b>, <b>bundling</b>, <b>lazy loading</b> and
             seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
-          <hr />
           <li>
-            Played a key role in developing a <b>survey platform</b>. Implemented personalized summary and raw data reports, unique question formats,
-            and introduced features for managing the surveyors and stores where surveys are conducted. Simplified data upload using Excel files for
-            faster and easier use.
+            Played a key role in developing a <b>survey platform</b> for <b>Samsung</b>, introducing advanced question types like conditional logic
+            and multimedia embedding. Simplified data uploads via Excel integration, enabling teams to efficiently capture and analyze critical
+            information.
           </li>
           <li>
-            Developed a professional administration panel using <b>React/Next.js</b> with <b>Redux</b> state management library, <b>RTK Query</b> and{" "}
-            <b>TypeScript</b> alongside <b>React Bootstrap</b> for the survey platform, designing and implementing complex UI components to handle
-            dynamic interactions and enhance <b>user experience</b>.
+            Developed a professional administration panel using <b>cutting-edge technologies</b> including <b>React/Next.js</b> with <b>Redux</b>{" "}
+            state management library, <b>RTK Query</b> and <b>TypeScript</b> alongside <b>React Bootstrap</b> for the survey platform. Utilized{" "}
+            <b>Zod</b> for schema validation to ensure robust form handling and data integrity. Designed and implemented complex <b>UI components</b>{" "}
+            to handle dynamic interactions and enhance <b>user experience</b>.
+          </li>
+          <li>
+            Wrote comprehensive <b>documentation</b> for the survey platform, covering technical architecture, code structure, API endpoints, and user
+            guides to ensure clear understanding and seamless handoff to other developers and stakeholders.
           </li>
           <li>
             Implemented <b>Agile</b> methodologies and conducted <b>Scrum</b> meetings throughout the development of the survey platform.
           </li>
-          <hr />
           <li>
             Currently working on migrating a PHP Laravel/MySQL <b>monolithic</b> retail management system to a <b>microservices architecture</b> using{" "}
             <b>ASP.NET Core</b> and <b>SQL Server</b>, including improved features such as <b>Elasticsearch</b>, <b>service registry</b>,{" "}
-            <b>API gateway</b>, and <b>load balancing</b>.
+            <b>API gateway</b> and <b>load balancing</b>.
           </li>
         </ul>
       </>
@@ -76,8 +78,8 @@ export const experiences = [
           for seamless property management, data editing, and analytics tracking.
         </li>
         <li>
-          <b>Collaborated</b> closely with the backend team to define <b>API</b> requirements and ensured seamless <b>integration</b> for data
-          retrieval and management.
+          <b>Collaborated</b> closely with the backend team and team leads to define <b>API</b> requirements, ensuring seamless <b>integration</b> for
+          data retrieval and management, and delivering a <b>secure</b>, <b>scalable</b> application.
         </li>
         <li>
           Ensured <b>responsive designs</b> and <b>cross-browser compatibility</b> for a consistent appearance <b>across various devices</b>.

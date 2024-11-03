@@ -87,12 +87,14 @@ export default function Hero() {
         </Address>
         <hr className="hr" />
         <Description>
-          Seasoned <b>Full Stack Web Developer</b> with over <b>4 years</b> of hands-on experience in building scalable web solutions across multiple
-          industries. Currently part of <b>Samsung with the Cheil Middle East & Africa team</b>, I specialize in both frontend and backend
-          development, using modern frameworks such as <b>React/Next.js</b>, <b>PHP/Laravel</b>, and <b>C#/ASP.NET Core</b>. Adept at transforming
-          business requirements into high-performance applications, I’ve played key roles in complex projects, delivering optimized solutions across
-          multiple countries. Recognized for innovative problem-solving skills and the ability to work independently and as part of a team, with a
-          solid understanding of software architecture.
+          <p>
+            <b>Seasoned Full Stack Web Developer</b> with over <b>4 years</b> of hands-on experience in building scalable web solutions across
+            multiple industries. Currently part of <b>Samsung</b> with the <b>Cheil Middle East &amp; Africa</b> team, I specialize in both frontend
+            and backend development, leveraging <b>cutting-edge technologies</b> such as <b>React/Next.js</b>, <b>PHP/Laravel</b>, and{" "}
+            <b>C#/ASP.NET Core</b>. Adept at transforming business requirements into high-performance applications, I’ve played key roles in complex
+            projects, delivering optimized solutions across multiple countries. Recognized for innovative problem-solving skills and the ability to
+            work independently and as part of a team, with a solid understanding of software architecture.
+          </p>
         </Description>
       </HeroContainer>
     </StyledHero>

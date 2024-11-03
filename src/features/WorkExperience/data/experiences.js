@@ -34,10 +34,12 @@ export const experiences = [
             <b>reusable components</b> and applying industry-best practices, including effective <b>caching</b> strategies to <b>optimize</b> frontend
             performance for speed and responsiveness.
           </li>
+          <hr />
           <li>
             <b>Optimized</b> a legacy website by implementing web techniques, including <b>caching</b>, <b>bundling</b>, <b>lazy loading</b> and
             seamlessly integrating <b>JavaScript template engines</b> to enhance performance.
           </li>
+          <hr />
           <li>
             Played a key role in developing a <b>survey platform</b> for <b>Samsung</b>, introducing advanced question types like conditional logic
             and multimedia embedding. Simplified data uploads via Excel integration, enabling teams to efficiently capture and analyze critical
@@ -56,6 +58,7 @@ export const experiences = [
           <li>
             Implemented <b>Agile</b> methodologies and conducted <b>Scrum</b> meetings throughout the development of the survey platform.
           </li>
+          <hr />
           <li>
             Currently working on migrating a PHP Laravel/MySQL <b>monolithic</b> retail management system to a <b>microservices architecture</b> using{" "}
             <b>ASP.NET Core</b> and <b>SQL Server</b>, including improved features such as <b>Elasticsearch</b>, <b>service registry</b>,{" "}

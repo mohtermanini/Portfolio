@@ -1,7 +1,7 @@
 # Portfolio
 Portfolio of Mohamad Termanini.
 
-**You can enter the website from [here](http://mohtermanini.github.io/Portfolio).**
+**You can enter the website from [here](http://mohtermanini.github.io/portfolio).**
 
 
 ## Technical section

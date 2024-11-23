@@ -12,7 +12,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://mohtermanini.github.io/portfolio/OG.png",
+        url: "https://mohtermanini.github.io/portfolio/assets/images/OG.png",
         width: 1200,
         height: 630,
         alt: "Primary Image",

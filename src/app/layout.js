@@ -11,14 +11,14 @@ export const metadata = {
     siteName: "My Porfolio Website",
     title: APP_META_DATA.title + " | For OG",
     description: APP_META_DATA.description + " | For OG",
-    type: "website",
+    type: "product", //help platforms render the shared post accordingly, values [website | article | video.movie | video.episode | music.song | product]
     images: [
       {
         url: "https://mohtermanini.github.io/portfolio/assets/images/OG.png",
         width: 1200,
         height: 630,
         alt: "Primary Image",
-      }
+      },
     ],
   },
 };

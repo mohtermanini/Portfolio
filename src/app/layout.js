@@ -8,10 +8,10 @@ export const metadata = {
   title: APP_META_DATA.title,
   description: APP_META_DATA.description,
   openGraph: {
-    siteName: "My Porfolio Website",
-    title: APP_META_DATA.title + " | For OG",
-    description: APP_META_DATA.description + " | For OG",
-    type: "video.movie", //help platforms render the shared post accordingly, values [website | article | video.movie | video.episode | music.song | book]
+    siteName: APP_META_DATA.title,
+    title: APP_META_DATA.title,
+    description: APP_META_DATA.description,
+    type: "website",
     images: [
       {
         url: "https://mohtermanini.github.io/portfolio/assets/images/OG.png",

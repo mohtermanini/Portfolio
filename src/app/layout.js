@@ -6,9 +6,11 @@ import "../assets/sass/loader.scss";
 
 export const metadata = {
   title: APP_META_DATA.title,
-  description: "Portfolio of Mohamad Termanini",
+  description: APP_META_DATA.description,
   openGraph: {
+    siteName: "My Porfolio Website",
     title: APP_META_DATA.title + " | For OG",
+    description: APP_META_DATA.description + " | For OG",
     type: "website",
     images: [
       {

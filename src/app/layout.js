@@ -1,11 +1,24 @@
 import { Roboto } from "next/font/google";
 import Providers from "@/components/Providers/Providers";
 import { StyledComponentsRegistry } from "@/styles/StyledComponentsRegistry";
+import { APP_META_DATA } from "@/config/appMetaData";
 import "../assets/sass/loader.scss";
 
 export const metadata = {
-  title: "Portfolio | Mohamad Termanini",
+  title: APP_META_DATA.title,
   description: "Portfolio of Mohamad Termanini",
+  openGraph: {
+    title: APP_META_DATA.title + " | For OG",
+    type: "website",
+    images: [
+      {
+        url: "https://mohtermanini.github.io/portfolio/OG.png",
+        width: 1200,
+        height: 630,
+        alt: "Primary Image",
+      }
+    ],
+  },
 };
 
 const roboto = Roboto({

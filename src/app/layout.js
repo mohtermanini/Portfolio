@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${roboto.variable}`}>
       <body>
-        <div className="initial-loader">
+        {/* <div className="initial-loader">
           <div className="dots-wrapper">
             <span className="dots">
               <span></span>
@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
             </span>
             <p className="waiting">Loading...</p>
           </div>
-        </div>
+        </div> */}
         <Providers>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         </Providers>

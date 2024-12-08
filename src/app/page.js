@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <GlobalStyles />
-      <DocumentLoader>
+      {/* <DocumentLoader> */}
         <Overlay />
         <Hero />
         <SectionSeparator />
@@ -25,7 +25,7 @@ export default function Home() {
         <SectionSeparator />
         <About />
         <Footer />
-      </DocumentLoader>
+      {/* </DocumentLoader> */}
     </main>
   );
 }
